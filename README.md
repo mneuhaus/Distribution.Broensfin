@@ -1,6 +1,10 @@
 Distribution.Broensfin
 ======================
 
+
+    git clone https://github.com/mneuhaus/Distribution.Broensfin.git Broensfin
+    cd Broensfin
+    composer install
     beard patch
 
 Migrate your database:
