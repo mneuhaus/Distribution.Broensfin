@@ -18,6 +18,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/mneuhaus/Famelo.Broensfin.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mneuhaus/less.php.git"
         }
     ],
     "require": {

@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "8eac4a3b0d469a88ff68c91bdfedd0c5",
+    "hash": "65e1d6d8113e1bea9e50b9eb8e10a361",
     "packages": [
         {
             "name": "composer/installers",
@@ -704,12 +704,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Broensfin.git",
-                "reference": "e590bc25fa1676cbeb5c5b0c6995dd025062e00d"
+                "reference": "69cd4b196a71ec0d3a5b37b79fd0c408ce6bd2bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/e590bc25fa1676cbeb5c5b0c6995dd025062e00d",
-                "reference": "e590bc25fa1676cbeb5c5b0c6995dd025062e00d",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/69cd4b196a71ec0d3a5b37b79fd0c408ce6bd2bd",
+                "reference": "69cd4b196a71ec0d3a5b37b79fd0c408ce6bd2bd",
                 "shasum": ""
             },
             "require": {
@@ -727,7 +727,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Broensfin/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Broensfin/issues"
             },
-            "time": "2014-02-17 11:59:04"
+            "time": "2014-02-17 12:21:36"
         },
         {
             "name": "imagine/imagine",
@@ -855,47 +855,6 @@
             "time": "2014-02-04 10:36:39"
         },
         {
-            "name": "leafo/lessphp",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/leafo/lessphp.git",
-                "reference": "b7cd5c79e82666bcd2dfadb304342311209fb527"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/leafo/lessphp/zipball/b7cd5c79e82666bcd2dfadb304342311209fb527",
-                "reference": "b7cd5c79e82666bcd2dfadb304342311209fb527",
-                "shasum": ""
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "0.4.x-dev"
-                }
-            },
-            "autoload": {
-                "classmap": [
-                    "lessc.inc.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT",
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Leaf Corcoran",
-                    "email": "leafot@gmail.com",
-                    "homepage": "http://leafo.net"
-                }
-            ],
-            "description": "lessphp is a compiler for LESS written in PHP.",
-            "homepage": "http://leafo.net/lessphp/",
-            "time": "2014-02-05 19:36:35"
-        },
-        {
             "name": "leafo/scssphp",
             "version": "dev-master",
             "source": {
@@ -940,6 +899,62 @@
             "description": "scssphp is a compiler for SCSS written in PHP.",
             "homepage": "http://leafo.net/scssphp/",
             "time": "2014-01-16 14:20:38"
+        },
+        {
+            "name": "oyejorge/less.php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oyejorge/less.php.git",
+                "reference": "9f65396ef507f6355003c37a0c091da7c406498d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/9f65396ef507f6355003c37a0c091da7c406498d",
+                "reference": "9f65396ef507f6355003c37a0c091da7c406498d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Less": "lib/"
+                },
+                "classmap": [
+                    "lessc.inc.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Matt Agar",
+                    "homepage": "https://github.com/agar"
+                },
+                {
+                    "name": "Martin Jantošovič",
+                    "homepage": "https://github.com/Mordred"
+                },
+                {
+                    "name": "Josh Schmidt",
+                    "homepage": "https://github.com/oyejorge"
+                }
+            ],
+            "description": "PHP port of the Javascript version of LESS http://lesscss.org",
+            "homepage": "http://lessphp.gpeasy.com",
+            "keywords": [
+                "css",
+                "less",
+                "less.js",
+                "lesscss",
+                "php",
+                "stylesheet"
+            ],
+            "time": "2014-02-15 00:22:29"
         },
         {
             "name": "symfony/console",
@@ -1146,18 +1161,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/afoeder/TYPO3.Asset.git",
-                "reference": "e3df5235688b776f56c1eda98b9972531c10bf57"
+                "reference": "be08d17de11a240b22670154f339c57ccb271146"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afoeder/TYPO3.Asset/zipball/e3df5235688b776f56c1eda98b9972531c10bf57",
-                "reference": "e3df5235688b776f56c1eda98b9972531c10bf57",
+                "url": "https://api.github.com/repos/afoeder/TYPO3.Asset/zipball/be08d17de11a240b22670154f339c57ccb271146",
+                "reference": "be08d17de11a240b22670154f339c57ccb271146",
                 "shasum": ""
             },
             "require": {
                 "kriswallsmith/assetic": "*",
-                "leafo/lessphp": "*",
                 "leafo/scssphp": "*",
+                "oyejorge/less.php": "*",
                 "typo3/flow": "*"
             },
             "type": "typo3-flow-package",
@@ -1171,7 +1186,7 @@
                 "source": "https://github.com/afoeder/TYPO3.Asset/tree/master",
                 "issues": "https://github.com/afoeder/TYPO3.Asset/issues"
             },
-            "time": "2014-02-08 01:37:58"
+            "time": "2014-02-17 13:03:07"
         },
         {
             "name": "typo3/eel",
