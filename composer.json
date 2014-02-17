@@ -6,11 +6,26 @@
         "vendor-dir": "Packages/Libraries",
         "bin-dir": "bin"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mneuhaus/TYPO3.Expose.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/afoeder/TYPO3.Asset.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mneuhaus/Famelo.Broensfin.git"
+        }
+    ],
     "require": {
         "typo3/neos": "dev-l10n",
         "typo3/neos-nodetypes": "dev-master",
-        "typo3/neosdemotypo3org": "dev-master",
-        "typo3/neos-kickstarter": "dev-master"
+        "typo3/neos-kickstarter": "dev-master",
+        "famelo/broensfin": "*",
+        "typo3/asset": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
