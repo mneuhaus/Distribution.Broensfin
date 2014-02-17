@@ -4,8 +4,5 @@
 		"[WIP][FEATURE] Automatically move generated migration to package": "23068",
 		"[WIP][FEATURE] Add an isDefaultView matcher for ViewConfiguration": "25147",
 		"[FEATURE] Unpersisted changes in Safe Requests should throw an Exception": "23484"
-	},
-	"TYPO3.Neos": {
-		"[FEATURE] Add LanguageMenuImplementation": "27382"
 	}
 }

@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "65e1d6d8113e1bea9e50b9eb8e10a361",
+    "hash": "4521534b0ce82602e48239e49c9476d2",
     "packages": [
         {
             "name": "composer/installers",
@@ -46,7 +46,7 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
+                    "homepage": "http://dontkry.com",
                     "role": "Developer"
                 }
             ],
@@ -87,6 +87,77 @@
                 "zikula"
             ],
             "time": "2014-02-12 21:21:55"
+        },
+        {
+            "name": "davidbadura/fixtures",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/DavidBadura/Fixtures.git",
+                "reference": "7a3483d3d17a062498e311244ca00d9bae422fd7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/DavidBadura/Fixtures/zipball/7a3483d3d17a062498e311244ca00d9bae422fd7",
+                "reference": "7a3483d3d17a062498e311244ca00d9bae422fd7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0",
+                "symfony/event-dispatcher": "~2.0",
+                "symfony/finder": "~2.0"
+            },
+            "require-dev": {
+                "doctrine/common": "~2.0",
+                "fzaninotto/faker": "~1.1",
+                "jamesmoss/toml": "*",
+                "symfony/expression-language": "~2.4",
+                "symfony/http-kernel": "~2.0",
+                "symfony/validator": "~2.0",
+                "symfony/yaml": "~2.0",
+                "webmozart/puli": "~1.0@alpha"
+            },
+            "suggest": {
+                "doctrine/mongodb-odm": "@beta",
+                "doctrine/orm": "~2.0",
+                "fzaninotto/faker": "~1.1",
+                "jamesmoss/toml": "*",
+                "symfony/expression-language": "~2.4",
+                "symfony/http-kernel": "~2.0",
+                "symfony/validator": "~2.0",
+                "symfony/yaml": "~2.0",
+                "webmozart/puli": "~1.0@alpha"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "DavidBadura\\Fixtures\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Badura",
+                    "email": "d.badura@gmx.de"
+                }
+            ],
+            "description": "A library to load yaml, json or php fixtures. Easy extendable, resolve object dependency and validate objects.",
+            "keywords": [
+                "database",
+                "doctrine",
+                "events",
+                "faker",
+                "fixtures",
+                "json",
+                "mongodb",
+                "orm",
+                "puli",
+                "yaml"
+            ],
+            "time": "2014-02-08 12:41:29"
         },
         {
             "name": "doctrine/annotations",
@@ -145,7 +216,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -220,7 +291,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -287,7 +358,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -360,7 +431,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -494,7 +565,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -553,7 +624,7 @@
                     "email": "roman@code-factory.org"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -704,12 +775,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Broensfin.git",
-                "reference": "69cd4b196a71ec0d3a5b37b79fd0c408ce6bd2bd"
+                "reference": "278b9cd371f14ff4f4b3b251986f27dc84e09682"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/69cd4b196a71ec0d3a5b37b79fd0c408ce6bd2bd",
-                "reference": "69cd4b196a71ec0d3a5b37b79fd0c408ce6bd2bd",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/278b9cd371f14ff4f4b3b251986f27dc84e09682",
+                "reference": "278b9cd371f14ff4f4b3b251986f27dc84e09682",
                 "shasum": ""
             },
             "require": {
@@ -727,7 +798,61 @@
                 "source": "https://github.com/mneuhaus/Famelo.Broensfin/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Broensfin/issues"
             },
-            "time": "2014-02-17 12:21:36"
+            "time": "2014-02-17 13:07:03"
+        },
+        {
+            "name": "famelo/common",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/Famelo.Common.git",
+                "reference": "ed277a4ae9ae0b2b6234772b236fa7e708e8554e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/ed277a4ae9ae0b2b6234772b236fa7e708e8554e",
+                "reference": "ed277a4ae9ae0b2b6234772b236fa7e708e8554e",
+                "shasum": ""
+            },
+            "require": {
+                "davidbadura/fixtures": "*",
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Famelo\\Common": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2014-01-30 20:40:52"
+        },
+        {
+            "name": "famelo/saas",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/Famelo.Saas.git",
+                "reference": "fddd6081cc8a06c2facde3ec098ce49859eda8fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/fddd6081cc8a06c2facde3ec098ce49859eda8fc",
+                "reference": "fddd6081cc8a06c2facde3ec098ce49859eda8fc",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Famelo\\Saas": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Add description here",
+            "time": "2014-01-31 23:24:06"
         },
         {
             "name": "imagine/imagine",
@@ -1053,7 +1178,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -1063,6 +1190,113 @@
             "description": "Symfony DomCrawler Component",
             "homepage": "http://symfony.com",
             "time": "2013-11-29 05:58:12"
+        },
+        {
+            "name": "symfony/event-dispatcher",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/EventDispatcher",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/EventDispatcher.git",
+                "reference": "8b345992d9e850798f46a6c68804ac9e4965e91a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/EventDispatcher/zipball/8b345992d9e850798f46a6c68804ac9e4965e91a",
+                "reference": "8b345992d9e850798f46a6c68804ac9e4965e91a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "psr/log": "~1.0",
+                "symfony/dependency-injection": "~2.0",
+                "symfony/stopwatch": "~2.2"
+            },
+            "suggest": {
+                "symfony/dependency-injection": "",
+                "symfony/http-kernel": ""
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\EventDispatcher\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony EventDispatcher Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-02-11 13:52:21"
+        },
+        {
+            "name": "symfony/finder",
+            "version": "dev-master",
+            "target-dir": "Symfony/Component/Finder",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/Finder.git",
+                "reference": "9a267caac6298b91efc7f0bc8522fd80f48fee98"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/9a267caac6298b91efc7f0bc8522fd80f48fee98",
+                "reference": "9a267caac6298b91efc7f0bc8522fd80f48fee98",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.5-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Symfony\\Component\\Finder\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "http://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony Finder Component",
+            "homepage": "http://symfony.com",
+            "time": "2014-01-07 13:29:57"
         },
         {
             "name": "symfony/process",
@@ -1144,7 +1378,9 @@
             "authors": [
                 {
                     "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
+                    "email": "fabien@symfony.com",
+                    "homepage": "http://fabien.potencier.org",
+                    "role": "Lead Developer"
                 },
                 {
                     "name": "Symfony Community",
@@ -1399,11 +1635,11 @@
         },
         {
             "name": "typo3/neos",
-            "version": "dev-l10n",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Neos.git",
-                "reference": "f03cf1cf72f4a0739e6b90f6ef256b258ef126c3"
+                "reference": "230e7f7b10ab7b36b709dee71d021b1f68865c79"
             },
             "require": {
                 "typo3/extjs": "*",
@@ -1411,7 +1647,7 @@
                 "typo3/media": "*",
                 "typo3/setup": "*",
                 "typo3/twitter-bootstrap": "*",
-                "typo3/typo3cr": "dev-l10n@dev",
+                "typo3/typo3cr": "*",
                 "typo3/typoscript": "*"
             },
             "suggest": {
@@ -1433,7 +1669,7 @@
                 "GPL-3.0+"
             ],
             "description": "The next generation of the popular open-source CMS.",
-            "time": "2014-02-03 10:29:27"
+            "time": "2014-02-17 15:15:02"
         },
         {
             "name": "typo3/neos-kickstarter",
@@ -1561,11 +1797,11 @@
         },
         {
             "name": "typo3/typo3cr",
-            "version": "dev-l10n",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.TYPO3CR.git",
-                "reference": "2b3ea97e0b5c8112aef6b60b92eb44d6af17924f"
+                "reference": "23ac172cc97daee756b152f8fff5a37baa3252b1"
             },
             "require": {
                 "typo3/flow": "*"
@@ -1580,7 +1816,7 @@
             "license": [
                 "GPL-3.0+"
             ],
-            "time": "2014-02-07 13:45:00"
+            "time": "2014-02-17 09:06:56"
         },
         {
             "name": "typo3/typoscript",
