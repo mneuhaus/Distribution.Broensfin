@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "4521534b0ce82602e48239e49c9476d2",
+    "hash": "9ded724e18a4748fcc442c5b1f84fa3b",
     "packages": [
         {
             "name": "composer/installers",
@@ -828,6 +828,59 @@
             "time": "2014-01-30 20:40:52"
         },
         {
+            "name": "famelo/messaging",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/Famelo.Messaging.git",
+                "reference": "dd211796f5d4968aa9ef1af91259cb869d9a5861"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/dd211796f5d4968aa9ef1af91259cb869d9a5861",
+                "reference": "dd211796f5d4968aa9ef1af91259cb869d9a5861",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*",
+                "typo3/swiftmailer": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Famelo\\Messaging": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2013-11-22 11:21:05"
+        },
+        {
+            "name": "famelo/pdf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/Famelo.PDF.git",
+                "reference": "696ccf25fa401c78f5bc20aeb7b128da8d7e6c16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.PDF/zipball/696ccf25fa401c78f5bc20aeb7b128da8d7e6c16",
+                "reference": "696ccf25fa401c78f5bc20aeb7b128da8d7e6c16",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Famelo\\PDF": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2013-03-26 20:05:43"
+        },
+        {
             "name": "famelo/saas",
             "version": "dev-master",
             "source": {
@@ -853,6 +906,86 @@
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
             "time": "2014-01-31 23:24:06"
+        },
+        {
+            "name": "gedmo/doctrine-extensions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
+                "reference": "e16bc46d9c65953b32bc7613a7522bbe0a44a9ea"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/e16bc46d9c65953b32bc7613a7522bbe0a44a9ea",
+                "reference": "e16bc46d9c65953b32bc7613a7522bbe0a44a9ea",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/common": "~2.2",
+                "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "doctrine/common": ">=2.4.0-RC3",
+                "doctrine/dbal": ">=2.4.0-RC1",
+                "doctrine/mongodb": ">=1.0.3",
+                "doctrine/mongodb-odm": ">=1.0.0-BETA9",
+                "doctrine/orm": ">=2.4.0-RC1",
+                "symfony/yaml": "2.3.1"
+            },
+            "suggest": {
+                "doctrine/dbal": ">=2.3.2",
+                "doctrine/mongodb": ">=1.0.1",
+                "doctrine/mongodb-odm": ">=1.0.0-BETA7",
+                "doctrine/orm": ">=2.3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Gedmo\\": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Buchmann",
+                    "email": "david@liip.ch"
+                },
+                {
+                    "name": "Gediminas Morkevicius",
+                    "email": "gediminas.morkevicius@gmail.com"
+                },
+                {
+                    "name": "Gustavo Falco",
+                    "email": "comfortablynumb84@gmail.com"
+                }
+            ],
+            "description": "Doctrine2 behavioral extensions",
+            "homepage": "http://gediminasm.org/",
+            "keywords": [
+                "Blameable",
+                "behaviors",
+                "doctrine2",
+                "extensions",
+                "gedmo",
+                "loggable",
+                "nestedset",
+                "sluggable",
+                "sortable",
+                "timestampable",
+                "translatable",
+                "tree",
+                "uploadable"
+            ],
+            "time": "2014-02-19 21:14:45"
         },
         {
             "name": "imagine/imagine",
@@ -1449,6 +1582,42 @@
             "time": "2014-02-16 22:03:27"
         },
         {
+            "name": "typo3/expose",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/TYPO3.Expose.git",
+                "reference": "9ce796a3167a6ce6f90a3c399ce61ab28192b8a5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/9ce796a3167a6ce6f90a3c399ce61ab28192b8a5",
+                "reference": "9ce796a3167a6ce6f90a3c399ce61ab28192b8a5",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/asset": "*",
+                "typo3/flow": "*",
+                "typo3/form": "*",
+                "typo3/typoscript": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\Expose": "Classes"
+                }
+            },
+            "license": [
+                "LGPL-3.0+"
+            ],
+            "description": "Package to expose models",
+            "support": {
+                "source": "https://github.com/mneuhaus/TYPO3.Expose/tree/master",
+                "issues": "https://github.com/mneuhaus/TYPO3.Expose/issues"
+            },
+            "time": "2014-01-30 20:42:47"
+        },
+        {
             "name": "typo3/extjs",
             "version": "dev-master",
             "source": {
@@ -1770,6 +1939,34 @@
             ],
             "description": "An extensible setup tool for TYPO3 Flow based applications",
             "time": "2014-02-13 15:11:08"
+        },
+        {
+            "name": "typo3/swiftmailer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://git.typo3.org/Packages/TYPO3.SwiftMailer.git",
+                "reference": "e8364b17c55f9344f366251abdc6265fe9ff2b05"
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "provide": {
+                "swiftmailer/swiftmailer": "5.0.3"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\SwiftMailer": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0",
+                "MIT"
+            ],
+            "description": "A TYPO3 Flow package of SwiftMailer",
+            "time": "2014-02-06 19:38:13"
         },
         {
             "name": "typo3/twitter-bootstrap",
@@ -2308,9 +2505,6 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "typo3/neos": 20,
-        "typo3/neos-nodetypes": 20,
-        "typo3/neos-kickstarter": 20,
         "typo3/buildessentials": 20,
         "flowpack/behat": 20
     },

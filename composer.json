@@ -25,13 +25,16 @@
         }
     ],
     "require": {
-        "typo3/neos": "dev-master",
-        "typo3/neos-nodetypes": "dev-master",
-        "typo3/neos-kickstarter": "dev-master",
+        "typo3/neos": "*",
+        "typo3/neos-nodetypes": "*",
+        "typo3/neos-kickstarter": "*",
         "famelo/broensfin": "*",
         "typo3/asset": "*",
         "famelo/common": "*",
-        "famelo/saas": "*"
+        "famelo/saas": "*",
+        "typo3/expose": "*",
+        "famelo/messaging": "*",
+        "famelo/pdf": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
