@@ -1,19 +1,19 @@
 {
 	"TYPO3.Flow": {
-		"[WIP][FEATURE] Add a way to clear caches by Path + FilePattern": "25078",
 		"[WIP][FEATURE] Automatically move generated migration to package": "23068",
 		"[WIP][FEATURE] Add an isDefaultView matcher for ViewConfiguration": "25147",
 		"[FEATURE] Unpersisted changes in Safe Requests should throw an Exception": "23484",
 		"[FEATURE] Add a signal to extend the ProxyBuilding": "25380",
 		"[FEATURE] Add slot annotation for automatic wiring": "27743",
-		"[WIP][FEATURE] Some convenience methods for the CLDRService": "27764"
+		"[WIP][FEATURE] Some convenience methods for the CLDRService": "27764",
+		"[WIP][FEATURE] Add a way to clear caches by Path + FilePattern": "25078"
 	},
 	"TYPO3.Party": {
 		"[BUGFIX] Add cascade persist to AbstractParty": "25024"
 	},
 	"TYPO3.Neos": {
-		"[BUGFIX] Prevent exception when matching incoming context URIs": "27688",
-		"[FEATURE] Add better output to the NodeWrappingHandler": "27765"
+		"[FEATURE] Add better output to the NodeWrappingHandler": "27765",
+		"[BUGFIX] Skip LinkInterception for Anchors": "27668"
 	},
 	"TYPO3.Fluid": {
 		"[WIP][FEATURE] Format currency based on currency code": "27766"
