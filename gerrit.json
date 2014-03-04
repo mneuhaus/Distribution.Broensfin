@@ -12,10 +12,6 @@
 		"[BUGFIX] Add cascade persist to AbstractParty": "25024"
 	},
 	"TYPO3.Neos": {
-		"[FEATURE] Add better output to the NodeWrappingHandler": "27765",
-		"[BUGFIX] Skip LinkInterception for Anchors": "27668"
-	},
-	"TYPO3.Fluid": {
-		"[WIP][FEATURE] Format currency based on currency code": "27766"
+		"[FEATURE] Add better output to the NodeWrappingHandler": "27765"
 	}
 }
