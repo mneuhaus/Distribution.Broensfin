@@ -12,6 +12,7 @@
 		"[BUGFIX] Add cascade persist to AbstractParty": "25024"
 	},
 	"TYPO3.Neos": {
-		"[FEATURE] Add better output to the NodeWrappingHandler": "27765"
+		"[FEATURE] Add better output to the NodeWrappingHandler": "27765",
+		"[FEATURE] Add LanguageMenuImplementation": "27382",
 	}
 }
