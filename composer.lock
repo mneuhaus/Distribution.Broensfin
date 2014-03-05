@@ -292,7 +292,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -359,7 +359,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -432,7 +432,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -566,7 +566,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -625,7 +625,7 @@
                     "email": "roman@code-factory.org"
                 },
                 {
-                    "name": "Johannes M. Schmitt",
+                    "name": "Johannes Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -776,12 +776,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Broensfin.git",
-                "reference": "87c30bc8d93f401b8d0a24462ed49ff2b421e492"
+                "reference": "fad330752bbdb12bb538112e4696509f44fd840a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/87c30bc8d93f401b8d0a24462ed49ff2b421e492",
-                "reference": "87c30bc8d93f401b8d0a24462ed49ff2b421e492",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/fad330752bbdb12bb538112e4696509f44fd840a",
+                "reference": "fad330752bbdb12bb538112e4696509f44fd840a",
                 "shasum": ""
             },
             "require": {
@@ -799,7 +799,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Broensfin/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Broensfin/issues"
             },
-            "time": "2014-02-20 23:35:16"
+            "time": "2014-03-04 15:05:18"
         },
         {
             "name": "famelo/common",
@@ -889,12 +889,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.PDF.git",
-                "reference": "696ccf25fa401c78f5bc20aeb7b128da8d7e6c16"
+                "reference": "93ad4bb8025527dc9d15eca0d0df4c5acee6da4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.PDF/zipball/696ccf25fa401c78f5bc20aeb7b128da8d7e6c16",
-                "reference": "696ccf25fa401c78f5bc20aeb7b128da8d7e6c16",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.PDF/zipball/93ad4bb8025527dc9d15eca0d0df4c5acee6da4e",
+                "reference": "93ad4bb8025527dc9d15eca0d0df4c5acee6da4e",
                 "shasum": ""
             },
             "require": {
@@ -907,7 +907,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2013-03-26 20:05:43"
+            "time": "2014-03-04 08:10:43"
         },
         {
             "name": "famelo/saas",
@@ -915,12 +915,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "e4c850743c22111c18fd1c25d55588cee1997f1d"
+                "reference": "8b0282af9df94842bdb02e39973610c709f2c25a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/e4c850743c22111c18fd1c25d55588cee1997f1d",
-                "reference": "e4c850743c22111c18fd1c25d55588cee1997f1d",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/8b0282af9df94842bdb02e39973610c709f2c25a",
+                "reference": "8b0282af9df94842bdb02e39973610c709f2c25a",
                 "shasum": ""
             },
             "require": {
@@ -934,7 +934,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-02-20 23:11:29"
+            "time": "2014-03-04 12:21:16"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -2141,7 +2141,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "14bacb4a8c38068ab56fb6ec23981e2d26f0bbd6"
+                "reference": "8c93774bf9ff256e1f7e94372d973622b074e49d"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -2173,7 +2173,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2014-02-28 13:17:54"
+            "time": "2014-03-04 14:20:18"
         },
         {
             "name": "typo3/fluid",
@@ -2277,7 +2277,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Media.git",
-                "reference": "543e08a915211ba17a1083bbca81903e781109c6"
+                "reference": "0d18668f016f22c22908e4a94c8f2a84c00aa09c"
             },
             "require": {
                 "typo3/flow": "*",
@@ -2294,7 +2294,7 @@
                 "GPL-3.0+"
             ],
             "description": "The Media package",
-            "time": "2014-02-28 06:14:45"
+            "time": "2014-03-04 13:02:26"
         },
         {
             "name": "typo3/neos",
@@ -2302,7 +2302,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Neos.git",
-                "reference": "8602c62f58d894081fd8a72863889ab150973c6c"
+                "reference": "c32cccc60d5f10572de5dbea27c8901282471851"
             },
             "require": {
                 "typo3/extjs": "*",
@@ -2332,7 +2332,7 @@
                 "GPL-3.0+"
             ],
             "description": "The next generation of the popular open-source CMS.",
-            "time": "2014-03-03 23:36:00"
+            "time": "2014-03-04 14:05:34"
         },
         {
             "name": "typo3/neos-kickstarter",
@@ -2366,7 +2366,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Neos.NodeTypes.git",
-                "reference": "e404bd163f690a03f36d63321dbcad8baee501a7"
+                "reference": "1ca3ff8a485bb0a20c3c9b6a4d300ba73ea061fb"
             },
             "require": {
                 "typo3/neos": "*"
@@ -2382,7 +2382,7 @@
                 "GPL-3.0+"
             ],
             "description": "Node type configuration for TYPO3 Neos",
-            "time": "2013-12-10 16:36:45"
+            "time": "2014-03-04 13:08:58"
         },
         {
             "name": "typo3/party",
@@ -2492,7 +2492,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.TYPO3CR.git",
-                "reference": "777bbf6790aa5b1117756c227047a077657ff27d"
+                "reference": "2820efdfe7e4242a8a67914e6a033515ab135e85"
             },
             "require": {
                 "typo3/flow": "*"
@@ -2507,7 +2507,7 @@
             "license": [
                 "GPL-3.0+"
             ],
-            "time": "2014-03-03 20:40:53"
+            "time": "2014-03-04 12:57:37"
         },
         {
             "name": "typo3/typoscript",
@@ -2515,7 +2515,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.TypoScript.git",
-                "reference": "3af98d86fafc4c3d40960273edc62e10fcc0e0f4"
+                "reference": "a577b9541f35a42747aa98f397f39654a5d23c83"
             },
             "require": {
                 "typo3/eel": "*",
@@ -2532,7 +2532,7 @@
                 "GPL-3.0+"
             ],
             "description": "TypoScript is a hierarchical, prototype based processing language",
-            "time": "2014-03-03 21:08:10"
+            "time": "2014-03-04 12:34:40"
         }
     ],
     "packages-dev": [

@@ -13,6 +13,7 @@
 	},
 	"TYPO3.Neos": {
 		"[FEATURE] Add better output to the NodeWrappingHandler": "27765",
-		"[FEATURE] Add LanguageMenuImplementation": "27382",
+		"[WIP][FEATURE] Support l10n for nodes": "27490",
+		"[FEATURE] Add LanguageMenuImplementation": "27382"
 	}
 }
