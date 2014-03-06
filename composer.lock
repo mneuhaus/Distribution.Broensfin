@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "7d248136e2ea9527588aba6ae18e1104",
+    "hash": "fb97da93657b13c6c212935863219b8b",
     "packages": [
         {
             "name": "composer/installers",
@@ -915,12 +915,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "8b0282af9df94842bdb02e39973610c709f2c25a"
+                "reference": "4210a9285abebb83a6cc4192b44269220373ebcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/8b0282af9df94842bdb02e39973610c709f2c25a",
-                "reference": "8b0282af9df94842bdb02e39973610c709f2c25a",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/4210a9285abebb83a6cc4192b44269220373ebcf",
+                "reference": "4210a9285abebb83a6cc4192b44269220373ebcf",
                 "shasum": ""
             },
             "require": {
@@ -934,7 +934,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-03-04 12:21:16"
+            "time": "2014-03-05 23:04:50"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -942,12 +942,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
-                "reference": "d708b0317b746ad40bf0d9619af01dd76ef947bc"
+                "reference": "af68e0521d8023ebbbb93bbddeaab993dc390412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/d708b0317b746ad40bf0d9619af01dd76ef947bc",
-                "reference": "d708b0317b746ad40bf0d9619af01dd76ef947bc",
+                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/af68e0521d8023ebbbb93bbddeaab993dc390412",
+                "reference": "af68e0521d8023ebbbb93bbddeaab993dc390412",
                 "shasum": ""
             },
             "require": {
@@ -1014,7 +1014,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2014-02-24 20:17:49"
+            "time": "2014-03-05 18:13:50"
         },
         {
             "name": "guzzle/common",
@@ -1603,12 +1603,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oyejorge/less.php.git",
-                "reference": "d4b4983f9d9a1f73b30a891b4141900405429957"
+                "reference": "88ecf9766033b49bd54801e2e22291c14f8afbad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/d4b4983f9d9a1f73b30a891b4141900405429957",
-                "reference": "d4b4983f9d9a1f73b30a891b4141900405429957",
+                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/88ecf9766033b49bd54801e2e22291c14f8afbad",
+                "reference": "88ecf9766033b49bd54801e2e22291c14f8afbad",
                 "shasum": ""
             },
             "require": {
@@ -1654,7 +1654,7 @@
                 "php",
                 "stylesheet"
             ],
-            "time": "2014-03-02 00:49:48"
+            "time": "2014-03-05 18:25:30"
         },
         {
             "name": "symfony/console",
@@ -1880,12 +1880,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/HttpFoundation.git",
-                "reference": "617979faab09c050e48db1fdb04c64a9c50f1848"
+                "reference": "eae69c6e62a0ce9e4a8518ff2aed6803b5b6aad5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/617979faab09c050e48db1fdb04c64a9c50f1848",
-                "reference": "617979faab09c050e48db1fdb04c64a9c50f1848",
+                "url": "https://api.github.com/repos/symfony/HttpFoundation/zipball/eae69c6e62a0ce9e4a8518ff2aed6803b5b6aad5",
+                "reference": "eae69c6e62a0ce9e4a8518ff2aed6803b5b6aad5",
                 "shasum": ""
             },
             "require": {
@@ -1923,7 +1923,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2014-03-03 22:00:45"
+            "time": "2014-03-04 07:36:44"
         },
         {
             "name": "symfony/process",
@@ -2141,7 +2141,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "8c93774bf9ff256e1f7e94372d973622b074e49d"
+                "reference": "89bdc23257a91c75c861739cff0b1d773e7d4482"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -2173,7 +2173,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2014-03-04 14:20:18"
+            "time": "2014-03-05 21:18:08"
         },
         {
             "name": "typo3/fluid",
@@ -2277,7 +2277,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Media.git",
-                "reference": "0d18668f016f22c22908e4a94c8f2a84c00aa09c"
+                "reference": "3189fc5ec371b46c012443b0c5cb49c225c76b1e"
             },
             "require": {
                 "typo3/flow": "*",
@@ -2294,7 +2294,7 @@
                 "GPL-3.0+"
             ],
             "description": "The Media package",
-            "time": "2014-03-04 13:02:26"
+            "time": "2014-03-04 20:29:48"
         },
         {
             "name": "typo3/neos",
@@ -2302,7 +2302,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Neos.git",
-                "reference": "c32cccc60d5f10572de5dbea27c8901282471851"
+                "reference": "0e628b789701b96b35081dfefe70b8bab04e15d3"
             },
             "require": {
                 "typo3/extjs": "*",
@@ -2332,7 +2332,37 @@
                 "GPL-3.0+"
             ],
             "description": "The next generation of the popular open-source CMS.",
-            "time": "2014-03-04 14:05:34"
+            "time": "2014-03-05 17:25:50"
+        },
+        {
+            "name": "typo3/neos-expose",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/TYPO3.Neos.Expose.git",
+                "reference": "9572c1e8b3f1468c31dcb9a8b4aa72066140c08f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Neos.Expose/zipball/9572c1e8b3f1468c31dcb9a8b4aa72066140c08f",
+                "reference": "9572c1e8b3f1468c31dcb9a8b4aa72066140c08f",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-4": {
+                    "TYPO3\\Neos\\Expose\\": "Classes"
+                }
+            },
+            "description": "Add description here",
+            "support": {
+                "source": "https://github.com/mneuhaus/TYPO3.Neos.Expose/tree/master",
+                "issues": "https://github.com/mneuhaus/TYPO3.Neos.Expose/issues"
+            },
+            "time": "2014-03-05 23:54:51"
         },
         {
             "name": "typo3/neos-kickstarter",
@@ -2366,7 +2396,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Neos.NodeTypes.git",
-                "reference": "1ca3ff8a485bb0a20c3c9b6a4d300ba73ea061fb"
+                "reference": "8202e25b534ad23d2d107556e6c12e20a1b05d9f"
             },
             "require": {
                 "typo3/neos": "*"
@@ -2382,7 +2412,7 @@
                 "GPL-3.0+"
             ],
             "description": "Node type configuration for TYPO3 Neos",
-            "time": "2014-03-04 13:08:58"
+            "time": "2014-03-05 20:01:25"
         },
         {
             "name": "typo3/party",
@@ -2492,7 +2522,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.TYPO3CR.git",
-                "reference": "2820efdfe7e4242a8a67914e6a033515ab135e85"
+                "reference": "9a10b4a1316be859f2ab5e54ed4f12024ab0bdbd"
             },
             "require": {
                 "typo3/flow": "*"
@@ -2507,7 +2537,7 @@
             "license": [
                 "GPL-3.0+"
             ],
-            "time": "2014-03-04 12:57:37"
+            "time": "2014-03-05 19:57:12"
         },
         {
             "name": "typo3/typoscript",
@@ -2515,7 +2545,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.TypoScript.git",
-                "reference": "a577b9541f35a42747aa98f397f39654a5d23c83"
+                "reference": "acb7a303c18ba68e8a467ca3d9b0e62e2cda9d2b"
             },
             "require": {
                 "typo3/eel": "*",
@@ -2532,7 +2562,7 @@
                 "GPL-3.0+"
             ],
             "description": "TypoScript is a hierarchical, prototype based processing language",
-            "time": "2014-03-04 12:34:40"
+            "time": "2014-03-04 15:41:40"
         }
     ],
     "packages-dev": [
@@ -2846,12 +2876,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "316a5478cc552056ccd3bd27fa0aa8645b2d0a59"
+                "reference": "4dbc3ab5de25a9ffd07796519f9f7f4aaddc37e0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/316a5478cc552056ccd3bd27fa0aa8645b2d0a59",
-                "reference": "316a5478cc552056ccd3bd27fa0aa8645b2d0a59",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/4dbc3ab5de25a9ffd07796519f9f7f4aaddc37e0",
+                "reference": "4dbc3ab5de25a9ffd07796519f9f7f4aaddc37e0",
                 "shasum": ""
             },
             "require": {
@@ -2912,7 +2942,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-02-28 10:34:19"
+            "time": "2014-03-05 12:52:24"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -2977,7 +3007,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Flow/BuildEssentials.git",
-                "reference": "82ce71b3499db109a2eb9c5c346963ca42036725"
+                "reference": "e0747e428dc08d359317e6621599320bddcddecc"
             },
             "require": {
                 "composer/installers": "~1.0.2"
@@ -2991,7 +3021,7 @@
                 "LGPL-3.0+"
             ],
             "description": "TYPO3 Flow Build Toolchain Essentials",
-            "time": "2013-10-10 18:12:16"
+            "time": "2014-03-04 19:50:30"
         }
     ],
     "aliases": [

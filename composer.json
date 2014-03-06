@@ -9,6 +9,10 @@
     "repositories": [
         {
             "type": "vcs",
+            "url": "https://github.com/mneuhaus/installers.git"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/mneuhaus/TYPO3.Expose.git"
         },
         {
@@ -22,6 +26,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/mneuhaus/less.php.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mneuhaus/TYPO3.Neos.Expose.git"
         }
     ],
     "require": {
@@ -37,7 +45,8 @@
         "famelo/pdf": "*",
         "famelo/doctrineextensions": "*",
         "omnipay/paypal": "*",
-        "omnipay/manual": "*"
+        "omnipay/manual": "*",
+        "typo3/neos-expose": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",
