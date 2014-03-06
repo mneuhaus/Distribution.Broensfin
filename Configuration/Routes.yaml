@@ -10,17 +10,12 @@
 ##
 # TYPO3 Neos subroutes
 
-
 -
-  name: 'Logout'
-  uriPattern: 'logout.html'
-  defaults:
-    '@package':    'Famelo.Saas'
-    '@controller': 'Login'
-    '@action':     'logout'
-    '@format':     'html'
-  appendExceedingArguments: true
-
+  name: 'Saas'
+  uriPattern: '<SaasSubroutes>'
+  subRoutes:
+    'SaasSubroutes':
+      package: 'Famelo.Saas'
 -
   name: 'TYPO3 Neos'
   uriPattern: '<TYPO3NeosSubroutes>'
