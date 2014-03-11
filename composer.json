@@ -30,6 +30,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/mneuhaus/TYPO3.Neos.Expose.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mneuhaus/Famelo.Bootstrap.git"
         }
     ],
     "require": {
@@ -46,7 +50,11 @@
         "famelo/doctrineextensions": "*",
         "omnipay/paypal": "*",
         "omnipay/manual": "*",
-        "typo3/neos-expose": "*"
+        "typo3/neos-expose": "*",
+        "famelo/bootstrap": "*",
+        "mrimann/xlifftranslator": "*",
+        "jwage/easy-csv": "*",
+        "league/csv": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",

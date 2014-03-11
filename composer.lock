@@ -3,20 +3,20 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "fb97da93657b13c6c212935863219b8b",
+    "hash": "985471791fa88e0a1420a48a4c5a7081",
     "packages": [
         {
             "name": "composer/installers",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/composer/installers.git",
-                "reference": "848de789c66ac609e7b2862c3500dd708afb72ce"
+                "url": "https://github.com/mneuhaus/installers.git",
+                "reference": "9a4d4a86ac01ced8e777c7298613c0611810fb84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/848de789c66ac609e7b2862c3500dd708afb72ce",
-                "reference": "848de789c66ac609e7b2862c3500dd708afb72ce",
+                "url": "https://api.github.com/repos/mneuhaus/installers/zipball/9a4d4a86ac01ced8e777c7298613c0611810fb84",
+                "reference": "9a4d4a86ac01ced8e777c7298613c0611810fb84",
                 "shasum": ""
             },
             "replace": {
@@ -38,7 +38,6 @@
                     "Composer\\Installers\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -46,48 +45,50 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
-                    "role": "Developer"
+                    "homepage": "https://github.com/shama"
                 }
             ],
             "description": "A multi-framework Composer library installer",
             "homepage": "http://composer.github.com/installers/",
             "keywords": [
+                "AGL",
+                "AnnotateCms",
+                "CakePHP",
+                "CodeIgniter",
                 "Craft",
+                "Croogo",
+                "Drupal",
+                "Elgg",
+                "FuelPHP",
                 "Hurad",
+                "Joomla",
+                "Kohana",
+                "Laravel",
+                "Lithium",
+                "MODULEWork",
                 "MODX Evo",
+                "Magento",
+                "Mako",
+                "MediaWiki",
                 "OXID",
+                "PPI",
+                "Piwik",
+                "SilverStripe",
+                "TYPO3",
                 "WolfCMS",
-                "agl",
-                "annotatecms",
-                "cakephp",
-                "codeigniter",
+                "WordPress",
+                "Zend",
+                "Zikula",
                 "concrete5",
-                "croogo",
-                "drupal",
-                "elgg",
-                "fuelphp",
                 "installer",
-                "joomla",
-                "kohana",
-                "laravel",
-                "lithium",
-                "magento",
-                "mako",
-                "mediawiki",
-                "modulework",
-                "phpbb",
-                "piwik",
-                "ppi",
+                "phpBB",
                 "shopware",
-                "silverstripe",
-                "symfony",
-                "typo3",
-                "wordpress",
-                "zend",
-                "zikula"
+                "symfony"
             ],
-            "time": "2014-03-04 04:29:18"
+            "support": {
+                "source": "https://github.com/mneuhaus/installers/tree/master"
+            },
+            "time": "2014-03-06 09:17:21"
         },
         {
             "name": "davidbadura/fixtures",
@@ -771,17 +772,47 @@
             "time": "2014-02-08 16:28:25"
         },
         {
+            "name": "famelo/bootstrap",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/Famelo.Bootstrap.git",
+                "reference": "0e133e2d3e74af593cf4a4c3a961baaedb906204"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Bootstrap/zipball/0e133e2d3e74af593cf4a4c3a961baaedb906204",
+                "reference": "0e133e2d3e74af593cf4a4c3a961baaedb906204",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-4": {
+                    "Famelo\\Bootstrap\\": "Classes"
+                }
+            },
+            "description": "Add description here",
+            "support": {
+                "source": "https://github.com/mneuhaus/Famelo.Bootstrap/tree/master",
+                "issues": "https://github.com/mneuhaus/Famelo.Bootstrap/issues"
+            },
+            "time": "2014-03-07 12:23:47"
+        },
+        {
             "name": "famelo/broensfin",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Broensfin.git",
-                "reference": "fad330752bbdb12bb538112e4696509f44fd840a"
+                "reference": "ec4c6bae03988619cf750c51de389fa5faae31de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/fad330752bbdb12bb538112e4696509f44fd840a",
-                "reference": "fad330752bbdb12bb538112e4696509f44fd840a",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/ec4c6bae03988619cf750c51de389fa5faae31de",
+                "reference": "ec4c6bae03988619cf750c51de389fa5faae31de",
                 "shasum": ""
             },
             "require": {
@@ -799,7 +830,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Broensfin/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Broensfin/issues"
             },
-            "time": "2014-03-04 15:05:18"
+            "time": "2014-03-11 14:07:07"
         },
         {
             "name": "famelo/common",
@@ -807,12 +838,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Common.git",
-                "reference": "a2b9813124a55f9e8ff4b1ad130f53f9ae100295"
+                "reference": "6843d282da1d0ad5c127cf4671086e5de549308f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/a2b9813124a55f9e8ff4b1ad130f53f9ae100295",
-                "reference": "a2b9813124a55f9e8ff4b1ad130f53f9ae100295",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/6843d282da1d0ad5c127cf4671086e5de549308f",
+                "reference": "6843d282da1d0ad5c127cf4671086e5de549308f",
                 "shasum": ""
             },
             "require": {
@@ -826,7 +857,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-02-25 13:01:02"
+            "time": "2014-03-06 21:18:41"
         },
         {
             "name": "famelo/doctrineextensions",
@@ -862,12 +893,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Messaging.git",
-                "reference": "8515768cbea54eb7e60be89ce23f5ac2941d80e9"
+                "reference": "9347c708fd1b5a76d5606b8606fb3cd780648774"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/8515768cbea54eb7e60be89ce23f5ac2941d80e9",
-                "reference": "8515768cbea54eb7e60be89ce23f5ac2941d80e9",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/9347c708fd1b5a76d5606b8606fb3cd780648774",
+                "reference": "9347c708fd1b5a76d5606b8606fb3cd780648774",
                 "shasum": ""
             },
             "require": {
@@ -881,7 +912,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-02-20 23:19:14"
+            "time": "2014-03-10 09:00:28"
         },
         {
             "name": "famelo/pdf",
@@ -915,12 +946,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "4210a9285abebb83a6cc4192b44269220373ebcf"
+                "reference": "a38d11dc3dd5ed697ac6600842b7e69cf6067682"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/4210a9285abebb83a6cc4192b44269220373ebcf",
-                "reference": "4210a9285abebb83a6cc4192b44269220373ebcf",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/a38d11dc3dd5ed697ac6600842b7e69cf6067682",
+                "reference": "a38d11dc3dd5ed697ac6600842b7e69cf6067682",
                 "shasum": ""
             },
             "require": {
@@ -934,7 +965,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-03-05 23:04:50"
+            "time": "2014-03-10 18:33:03"
         },
         {
             "name": "gedmo/doctrine-extensions",
@@ -942,12 +973,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
-                "reference": "af68e0521d8023ebbbb93bbddeaab993dc390412"
+                "reference": "417e3cba780e6751ba62b42874c718d272934723"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/af68e0521d8023ebbbb93bbddeaab993dc390412",
-                "reference": "af68e0521d8023ebbbb93bbddeaab993dc390412",
+                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/417e3cba780e6751ba62b42874c718d272934723",
+                "reference": "417e3cba780e6751ba62b42874c718d272934723",
                 "shasum": ""
             },
             "require": {
@@ -1014,7 +1045,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2014-03-05 18:13:50"
+            "time": "2014-03-11 09:04:14"
         },
         {
             "name": "guzzle/common",
@@ -1267,6 +1298,55 @@
             "time": "2013-07-10 17:25:36"
         },
         {
+            "name": "jwage/easy-csv",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jwage/easy-csv.git",
+                "reference": "8cd61921473a39a35e5750af22648388177776d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jwage/easy-csv/zipball/8cd61921473a39a35e5750af22648388177776d4",
+                "reference": "8cd61921473a39a35e5750af22648388177776d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "EasyCSV": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathan H. Wage",
+                    "email": "jonwage@gmail.com",
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
+                }
+            ],
+            "description": "Easy CSV manipulation for PHP 5.4+",
+            "homepage": "http://github.com/jwage/easy-csv",
+            "keywords": [
+                "csv",
+                "read",
+                "write"
+            ],
+            "time": "2014-02-23 18:12:04"
+        },
+        {
             "name": "kriswallsmith/assetic",
             "version": "dev-master",
             "source": {
@@ -1384,6 +1464,105 @@
             "description": "scssphp is a compiler for SCSS written in PHP.",
             "homepage": "http://leafo.net/scssphp/",
             "time": "2014-01-16 14:20:38"
+        },
+        {
+            "name": "league/csv",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/csv.git",
+                "reference": "afb552801ce3a4284a57ae9719e270b10df0130a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/afb552801ce3a4284a57ae9719e270b10df0130a",
+                "reference": "afb552801ce3a4284a57ae9719e270b10df0130a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.4.0"
+            },
+            "replace": {
+                "bakame/csv": "*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "League\\Csv\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ignace Nyamagana Butera",
+                    "email": "nyamsprod@gmail.com",
+                    "homepage": "https://github.com/nyamsprod/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Csv data manipulation made easy in PHP 5.4+",
+            "keywords": [
+                "csv",
+                "export",
+                "filter",
+                "import",
+                "read",
+                "write"
+            ],
+            "time": "2014-03-11 09:04:56"
+        },
+        {
+            "name": "mrimann/xlifftranslator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mrimann/XliffTranslator.git",
+                "reference": "2163108d7c8537b23471c5afd2ecbb0429fccd25"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mrimann/XliffTranslator/zipball/2163108d7c8537b23471c5afd2ecbb0429fccd25",
+                "reference": "2163108d7c8537b23471c5afd2ecbb0429fccd25",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*",
+                "typo3/twitter-bootstrap": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Mrimann\\XliffTranslator": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mario Rimann",
+                    "email": "mario.rimann@typo3.org",
+                    "homepage": "http://rimann.org/"
+                }
+            ],
+            "description": "Little helper that allows the developer to locally translate the Xliff files of his package(s).",
+            "keywords": [
+                "TYPO3 Flow",
+                "TYPO3 Neos",
+                "l10n",
+                "localization",
+                "translation",
+                "xliff"
+            ],
+            "time": "2013-10-11 12:27:15"
         },
         {
             "name": "omnipay/common",
@@ -1603,12 +1782,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oyejorge/less.php.git",
-                "reference": "88ecf9766033b49bd54801e2e22291c14f8afbad"
+                "reference": "cf37ede150bc810ef215414df65895733bce82f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/88ecf9766033b49bd54801e2e22291c14f8afbad",
-                "reference": "88ecf9766033b49bd54801e2e22291c14f8afbad",
+                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/cf37ede150bc810ef215414df65895733bce82f4",
+                "reference": "cf37ede150bc810ef215414df65895733bce82f4",
                 "shasum": ""
             },
             "require": {
@@ -1654,7 +1833,7 @@
                 "php",
                 "stylesheet"
             ],
-            "time": "2014-03-05 18:25:30"
+            "time": "2014-03-06 17:01:06"
         },
         {
             "name": "symfony/console",
@@ -2081,12 +2260,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/TYPO3.Expose.git",
-                "reference": "91220c3ef0d0e5e9de32468c26430204e9024a23"
+                "reference": "c059f7034311a773b8af80e365f143cedfa6fedb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/91220c3ef0d0e5e9de32468c26430204e9024a23",
-                "reference": "91220c3ef0d0e5e9de32468c26430204e9024a23",
+                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/c059f7034311a773b8af80e365f143cedfa6fedb",
+                "reference": "c059f7034311a773b8af80e365f143cedfa6fedb",
                 "shasum": ""
             },
             "require": {
@@ -2109,7 +2288,7 @@
                 "source": "https://github.com/mneuhaus/TYPO3.Expose/tree/master",
                 "issues": "https://github.com/mneuhaus/TYPO3.Expose/issues"
             },
-            "time": "2014-02-28 10:39:28"
+            "time": "2014-03-11 14:13:04"
         },
         {
             "name": "typo3/extjs",
@@ -2141,7 +2320,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "89bdc23257a91c75c861739cff0b1d773e7d4482"
+                "reference": "23f45f597e48eccad2b99e84d2eca84969f3bc59"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -2173,7 +2352,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2014-03-05 21:18:08"
+            "time": "2014-03-07 15:12:13"
         },
         {
             "name": "typo3/fluid",
@@ -2302,7 +2481,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Neos.git",
-                "reference": "0e628b789701b96b35081dfefe70b8bab04e15d3"
+                "reference": "9fce57766d1af55f31371788645ed8ced9efc0be"
             },
             "require": {
                 "typo3/extjs": "*",
@@ -2332,7 +2511,7 @@
                 "GPL-3.0+"
             ],
             "description": "The next generation of the popular open-source CMS.",
-            "time": "2014-03-05 17:25:50"
+            "time": "2014-03-07 09:59:10"
         },
         {
             "name": "typo3/neos-expose",
@@ -2340,12 +2519,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/TYPO3.Neos.Expose.git",
-                "reference": "9572c1e8b3f1468c31dcb9a8b4aa72066140c08f"
+                "reference": "c85d1a68cf0578bc75a4acc1c8eb074ff2b1dee4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Neos.Expose/zipball/9572c1e8b3f1468c31dcb9a8b4aa72066140c08f",
-                "reference": "9572c1e8b3f1468c31dcb9a8b4aa72066140c08f",
+                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Neos.Expose/zipball/c85d1a68cf0578bc75a4acc1c8eb074ff2b1dee4",
+                "reference": "c85d1a68cf0578bc75a4acc1c8eb074ff2b1dee4",
                 "shasum": ""
             },
             "require": {
@@ -2362,7 +2541,7 @@
                 "source": "https://github.com/mneuhaus/TYPO3.Neos.Expose/tree/master",
                 "issues": "https://github.com/mneuhaus/TYPO3.Neos.Expose/issues"
             },
-            "time": "2014-03-05 23:54:51"
+            "time": "2014-03-10 09:01:10"
         },
         {
             "name": "typo3/neos-kickstarter",
@@ -2370,7 +2549,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.SiteKickstarter.git",
-                "reference": "ac71f441e74dc3c5ee8a17480a5c3c96ba21b684"
+                "reference": "a24f09ac8b10ceb00de6d8bbc8f08ee091bf9150"
             },
             "require": {
                 "typo3/kickstart": "*",
@@ -2388,7 +2567,7 @@
                 "GPL-3.0+"
             ],
             "description": "A simple generator for Neos assets, like sites and plugins.",
-            "time": "2013-12-09 19:35:30"
+            "time": "2014-03-04 13:10:16"
         },
         {
             "name": "typo3/neos-nodetypes",
@@ -2522,7 +2701,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.TYPO3CR.git",
-                "reference": "9a10b4a1316be859f2ab5e54ed4f12024ab0bdbd"
+                "reference": "bd57403f8a2844de436fce23fb465e602efca751"
             },
             "require": {
                 "typo3/flow": "*"
@@ -2537,7 +2716,7 @@
             "license": [
                 "GPL-3.0+"
             ],
-            "time": "2014-03-05 19:57:12"
+            "time": "2014-03-06 16:23:28"
         },
         {
             "name": "typo3/typoscript",
@@ -2545,7 +2724,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.TypoScript.git",
-                "reference": "acb7a303c18ba68e8a467ca3d9b0e62e2cda9d2b"
+                "reference": "e73b23a5df6213263d19786610240e7bb087ba8b"
             },
             "require": {
                 "typo3/eel": "*",
@@ -2562,7 +2741,7 @@
                 "GPL-3.0+"
             ],
             "description": "TypoScript is a hierarchical, prototype based processing language",
-            "time": "2014-03-04 15:41:40"
+            "time": "2014-03-07 09:59:13"
         }
     ],
     "packages-dev": [
