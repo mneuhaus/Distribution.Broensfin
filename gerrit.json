@@ -9,9 +9,6 @@
 		"[WIP][FEATURE] Add a way to clear caches by Path + FilePattern": "25078",
 		"[FEAUTRE] Add PSR-4 Support to Package": "28097"
 	},
-	"TYPO3.Party": {
-		"[BUGFIX] Add cascade persist to AbstractParty": "25024"
-	},
 	"TYPO3.Neos": {
 		"[FEATURE] Add better output to the NodeWrappingHandler": "27765",
 		"[WIP][FEATURE] Support l10n for nodes": "27490",
