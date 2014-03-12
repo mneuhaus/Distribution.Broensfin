@@ -12,6 +12,7 @@ before_script:
 
 script:
     - phpunit -c Build/BuildEssentials/PhpUnit/UnitTests.xml
+    - phpunit -c Build/BuildEssentials/PhpUnit/FunctionalTests.xml
 
 matrix:
   allow_failures:
