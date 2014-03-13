@@ -5,7 +5,8 @@
 		"[FEATURE] Add a signal to extend the ProxyBuilding": "25380",
 		"[FEATURE] Add slot annotation for automatic wiring": "27743",
 		"[WIP][FEATURE] Some convenience methods for the CLDRService": "27764",
-		"[WIP][FEATURE] Add a way to clear caches by Path + FilePattern": "25078"
+		"[WIP][FEATURE] Add a way to clear caches by Path + FilePattern": "25078",
+		"[FEATURE] Make the renderStatically function public": "28367"
 	},
 	"TYPO3.Neos": {
 		"[FEATURE] Add better output to the NodeWrappingHandler": "27765",
