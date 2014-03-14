@@ -9,6 +9,10 @@ php:
 before_script:
   - sudo apt-get install apache2 libapache2-mod-fastcgi
   - php -v
+
+  # download beard
+  - curl -sL https://github.com/mneuhaus/Beard/releases/download/0.8.0/beard-0.8.0.phar > beard.phar
+  - chmod +x beard.phar
   - php ./beard.phar
   - php ./beard.phar patch
 
@@ -23,9 +27,6 @@ before_script:
   # - sudo sed -e "s?%TRAVIS_BUILD_DIR%?$(pwd)?g" --in-place /etc/apache2/sites-available/default
   # - sudo service apache2 restart
 
-  # # download beard
-  # - curl -sL https://github.com/mneuhaus/Beard/releases/download/0.8.0/beard-0.8.0.phar > beard.phar
-  # - chmod +x beard.phar
 
   # # install
   # - composer self-update
