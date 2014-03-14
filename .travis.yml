@@ -13,8 +13,9 @@ before_script:
   # download beard
   - curl -sL https://github.com/mneuhaus/Beard/releases/download/0.8.0/beard-0.8.0.phar > beard.phar
   - chmod +x beard.phar
-  - php ./beard.phar
-  - php ./beard.phar patch
+  - ./beard.phar
+  - ./beard.phar setup
+  - ./beard.phar patch
 
   # # enable php-fpm
   # - sudo cp ~/.phpenv/versions/$(phpenv version-name)/etc/php-fpm.conf.default ~/.phpenv/versions/$(phpenv version-name)/etc/php-fpm.conf
