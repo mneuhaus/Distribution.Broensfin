@@ -27,7 +27,7 @@ before_script:
   # install
   - composer self-update
   - composer --prefer-source --dev install
-  - beard patch
+  - ./beard.phar patch
   - mysql -e 'CREATE DATABASE flow-broensfin-behat;'
 
 after_script:
