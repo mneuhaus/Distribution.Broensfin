@@ -28,6 +28,7 @@ before_script:
   - composer self-update
   - composer --prefer-source --dev install
   - ./beard.phar patch
+  - ./flow behat:setup
   - mysql -e 'CREATE DATABASE flow-broensfin-behat;'
 
 after_script:
