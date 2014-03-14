@@ -1,0 +1,5 @@
+<VirtualHost *:80>
+        DocumentRoot %TRAVIS_BUILD_DIR%
+        ServerName broensfin.travis
+        SetEnv FLOW_CONTEXT Development/Behat
+</VirtualHost>
