@@ -10,7 +10,7 @@
 	},
 	"TYPO3.Neos": {
 		"[FEATURE] Add better output to the NodeWrappingHandler": "27765",
-		"[WIP][FEATURE] Support l10n for nodes": "27490",
+		"[FEATURE] Localized node routing and consistent use of context path": "27490",
 		"[FEATURE] Add LanguageMenuImplementation": "27657",
 		"[WIP][BUGFIX] Fix PluginUriAspect to comply with the Dimension change": "28070"
 	}
