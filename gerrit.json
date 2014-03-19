@@ -10,8 +10,9 @@
 	},
 	"TYPO3.Neos": {
 		"[FEATURE] Add better output to the NodeWrappingHandler": "27765",
-		"[FEATURE] Localized node routing and consistent use of context path": "27490",
 		"[FEATURE] Add LanguageMenuImplementation": "27657",
-		"[WIP][BUGFIX] Fix PluginUriAspect to comply with the Dimension change": "28070"
+		"[FEATURE] Localized node routing and consistent use of context path": "27490",
+		"[WIP][BUGFIX] Fix PluginUriAspect to comply with the Dimension change": "28070",
+		"[WIP][FEATURE] Enable LocalizedFrontendNodeRoutePartHandler": "28529"
 	}
 }

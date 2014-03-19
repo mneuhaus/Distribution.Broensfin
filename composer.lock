@@ -646,12 +646,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/migrations.git",
-                "reference": "4837b4afac4469c8740f33eae6bdcd8bd1545d2e"
+                "reference": "46a031ddaea47d0685200027cfe8c83b02aee6f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/migrations/zipball/4837b4afac4469c8740f33eae6bdcd8bd1545d2e",
-                "reference": "4837b4afac4469c8740f33eae6bdcd8bd1545d2e",
+                "url": "https://api.github.com/repos/doctrine/migrations/zipball/46a031ddaea47d0685200027cfe8c83b02aee6f6",
+                "reference": "46a031ddaea47d0685200027cfe8c83b02aee6f6",
                 "shasum": ""
             },
             "require": {
@@ -682,7 +682,7 @@
             ],
             "authors": [
                 {
-                    "name": "Jonathan H. Wage",
+                    "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
                     "homepage": "http://www.jwage.com/",
                     "role": "Creator"
@@ -698,7 +698,7 @@
                 "database",
                 "migrations"
             ],
-            "time": "2014-03-04 01:42:11"
+            "time": "2014-03-16 19:02:43"
         },
         {
             "name": "doctrine/orm",
@@ -807,12 +807,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Broensfin.git",
-                "reference": "25341bd38f179bd77c74e5399953ada55f4cce4d"
+                "reference": "ca837ba438114da634c8650840ed52f8a061a100"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/25341bd38f179bd77c74e5399953ada55f4cce4d",
-                "reference": "25341bd38f179bd77c74e5399953ada55f4cce4d",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/ca837ba438114da634c8650840ed52f8a061a100",
+                "reference": "ca837ba438114da634c8650840ed52f8a061a100",
                 "shasum": ""
             },
             "require": {
@@ -830,7 +830,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Broensfin/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Broensfin/issues"
             },
-            "time": "2014-03-14 15:07:48"
+            "time": "2014-03-19 15:42:44"
         },
         {
             "name": "famelo/common",
@@ -893,12 +893,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Messaging.git",
-                "reference": "fc9212f676a882b65564b17801871135f987392f"
+                "reference": "6fde1325a0e125cb0eac8c042b32c7105c9e34eb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/fc9212f676a882b65564b17801871135f987392f",
-                "reference": "fc9212f676a882b65564b17801871135f987392f",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/6fde1325a0e125cb0eac8c042b32c7105c9e34eb",
+                "reference": "6fde1325a0e125cb0eac8c042b32c7105c9e34eb",
                 "shasum": ""
             },
             "require": {
@@ -912,7 +912,17 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-03-14 15:12:15"
+            "authors": [
+                {
+                    "name": "Marc Neuhaus",
+                    "email": "apocalip@gmail.com",
+                    "homepage": "http://famelo.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Little helper to send Messages with SwiftMailer rendered through Fluid.",
+            "homepage": "https://github.com/mneuhaus/Famelo.Messaging",
+            "time": "2014-03-16 22:14:20"
         },
         {
             "name": "famelo/pdf",
@@ -920,12 +930,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.PDF.git",
-                "reference": "93ad4bb8025527dc9d15eca0d0df4c5acee6da4e"
+                "reference": "23d3019d3b4d68c3ffc90276ba8f23e587b49be7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.PDF/zipball/93ad4bb8025527dc9d15eca0d0df4c5acee6da4e",
-                "reference": "93ad4bb8025527dc9d15eca0d0df4c5acee6da4e",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.PDF/zipball/23d3019d3b4d68c3ffc90276ba8f23e587b49be7",
+                "reference": "23d3019d3b4d68c3ffc90276ba8f23e587b49be7",
                 "shasum": ""
             },
             "require": {
@@ -938,7 +948,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-03-04 08:10:43"
+            "time": "2014-03-16 20:10:21"
         },
         {
             "name": "famelo/saas",
@@ -946,12 +956,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "a46d7ebd90673ea42b0d3c19e11720fad57c4d2b"
+                "reference": "f4bafdeedcfbfe157fe69b81b9ec308343a554bd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/a46d7ebd90673ea42b0d3c19e11720fad57c4d2b",
-                "reference": "a46d7ebd90673ea42b0d3c19e11720fad57c4d2b",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/f4bafdeedcfbfe157fe69b81b9ec308343a554bd",
+                "reference": "f4bafdeedcfbfe157fe69b81b9ec308343a554bd",
                 "shasum": ""
             },
             "require": {
@@ -965,7 +975,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-03-14 15:09:53"
+            "time": "2014-03-17 16:07:10"
         },
         {
             "name": "flowpack/behat",
@@ -1003,12 +1013,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
-                "reference": "417e3cba780e6751ba62b42874c718d272934723"
+                "reference": "59c819b22ec19867d330cc3173c874b7a7ffac3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/417e3cba780e6751ba62b42874c718d272934723",
-                "reference": "417e3cba780e6751ba62b42874c718d272934723",
+                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/59c819b22ec19867d330cc3173c874b7a7ffac3b",
+                "reference": "59c819b22ec19867d330cc3173c874b7a7ffac3b",
                 "shasum": ""
             },
             "require": {
@@ -1075,7 +1085,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2014-03-11 09:04:14"
+            "time": "2014-03-18 09:07:39"
         },
         {
             "name": "guzzle/common",
@@ -1382,12 +1392,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/assetic.git",
-                "reference": "8342a250cd6e8d693332e7899b2e9c62c8187156"
+                "reference": "c501da7ffbf311a7133113186540a572d9fe5135"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/8342a250cd6e8d693332e7899b2e9c62c8187156",
-                "reference": "8342a250cd6e8d693332e7899b2e9c62c8187156",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/c501da7ffbf311a7133113186540a572d9fe5135",
+                "reference": "c501da7ffbf311a7133113186540a572d9fe5135",
                 "shasum": ""
             },
             "require": {
@@ -1447,7 +1457,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2014-02-28 18:17:10"
+            "time": "2014-03-18 09:11:56"
         },
         {
             "name": "leafo/scssphp",
@@ -1812,12 +1822,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oyejorge/less.php.git",
-                "reference": "cf37ede150bc810ef215414df65895733bce82f4"
+                "reference": "05144b5692e43173e92f7681da980d9a198c286a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/cf37ede150bc810ef215414df65895733bce82f4",
-                "reference": "cf37ede150bc810ef215414df65895733bce82f4",
+                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/05144b5692e43173e92f7681da980d9a198c286a",
+                "reference": "05144b5692e43173e92f7681da980d9a198c286a",
                 "shasum": ""
             },
             "require": {
@@ -1863,7 +1873,7 @@
                 "php",
                 "stylesheet"
             ],
-            "time": "2014-03-06 17:01:06"
+            "time": "2014-03-18 05:54:49"
         },
         {
             "name": "symfony/console",
@@ -1872,12 +1882,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "563254c27e37efb65aae587286602ae6f5f18acd"
+                "reference": "54059dedb1e5982cb1cae4f82ac9d1d75e471bf5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/563254c27e37efb65aae587286602ae6f5f18acd",
-                "reference": "563254c27e37efb65aae587286602ae6f5f18acd",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/54059dedb1e5982cb1cae4f82ac9d1d75e471bf5",
+                "reference": "54059dedb1e5982cb1cae4f82ac9d1d75e471bf5",
                 "shasum": ""
             },
             "require": {
@@ -1918,7 +1928,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-03-03 13:53:19"
+            "time": "2014-03-19 06:24:10"
         },
         {
             "name": "symfony/dom-crawler",
@@ -2141,12 +2151,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Process.git",
-                "reference": "be017d5dc660c160d62b4125e0417739cd3e7a0c"
+                "reference": "9f34844416dc60a16e3aef6bececcb5a6d9713a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Process/zipball/be017d5dc660c160d62b4125e0417739cd3e7a0c",
-                "reference": "be017d5dc660c160d62b4125e0417739cd3e7a0c",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/9f34844416dc60a16e3aef6bececcb5a6d9713a5",
+                "reference": "9f34844416dc60a16e3aef6bececcb5a6d9713a5",
                 "shasum": ""
             },
             "require": {
@@ -2181,7 +2191,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2014-03-12 11:02:04"
+            "time": "2014-03-14 18:46:29"
         },
         {
             "name": "symfony/yaml",
@@ -2233,12 +2243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/afoeder/TYPO3.Asset.git",
-                "reference": "be08d17de11a240b22670154f339c57ccb271146"
+                "reference": "0fcba28c28600e0d36c97d7fd24c986c8fe8f129"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afoeder/TYPO3.Asset/zipball/be08d17de11a240b22670154f339c57ccb271146",
-                "reference": "be08d17de11a240b22670154f339c57ccb271146",
+                "url": "https://api.github.com/repos/afoeder/TYPO3.Asset/zipball/0fcba28c28600e0d36c97d7fd24c986c8fe8f129",
+                "reference": "0fcba28c28600e0d36c97d7fd24c986c8fe8f129",
                 "shasum": ""
             },
             "require": {
@@ -2258,7 +2268,7 @@
                 "source": "https://github.com/afoeder/TYPO3.Asset/tree/master",
                 "issues": "https://github.com/afoeder/TYPO3.Asset/issues"
             },
-            "time": "2014-02-17 13:03:07"
+            "time": "2014-03-19 14:13:19"
         },
         {
             "name": "typo3/eel",
@@ -2290,12 +2300,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/TYPO3.Expose.git",
-                "reference": "3d2aaa38be1f8a33a627601d51e3928041858c9e"
+                "reference": "b820838a160ace625db73d01345a8854b88fa68e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/3d2aaa38be1f8a33a627601d51e3928041858c9e",
-                "reference": "3d2aaa38be1f8a33a627601d51e3928041858c9e",
+                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/b820838a160ace625db73d01345a8854b88fa68e",
+                "reference": "b820838a160ace625db73d01345a8854b88fa68e",
                 "shasum": ""
             },
             "require": {
@@ -2318,7 +2328,7 @@
                 "source": "https://github.com/mneuhaus/TYPO3.Expose/tree/master",
                 "issues": "https://github.com/mneuhaus/TYPO3.Expose/issues"
             },
-            "time": "2014-03-14 15:08:17"
+            "time": "2014-03-16 22:48:01"
         },
         {
             "name": "typo3/extjs",
@@ -2350,7 +2360,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "34a3e5d7600a9d3b0ed398143a159550708b9896"
+                "reference": "836cb1f663ac1ed67dc69cf2d933211168558739"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -2382,7 +2392,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2014-03-13 14:37:15"
+            "time": "2014-03-19 13:55:26"
         },
         {
             "name": "typo3/fluid",
@@ -2511,7 +2521,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Neos.git",
-                "reference": "2f05ba7b1ad109a885053006614249aa066ff065"
+                "reference": "229d9ea7c52975be3c357ef34a0774bd7ad0de2c"
             },
             "require": {
                 "typo3/extjs": "*",
@@ -2541,7 +2551,7 @@
                 "GPL-3.0+"
             ],
             "description": "The next generation of the popular open-source CMS.",
-            "time": "2014-03-14 06:31:11"
+            "time": "2014-03-16 14:43:46"
         },
         {
             "name": "typo3/neos-expose",
@@ -2754,7 +2764,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.TypoScript.git",
-                "reference": "e73b23a5df6213263d19786610240e7bb087ba8b"
+                "reference": "cb6ee8913393c97ef2fabe63a4e7cf6476c3f383"
             },
             "require": {
                 "typo3/eel": "*",
@@ -2771,7 +2781,7 @@
                 "GPL-3.0+"
             ],
             "description": "TypoScript is a hierarchical, prototype based processing language",
-            "time": "2014-03-07 09:59:13"
+            "time": "2014-03-15 10:01:54"
         }
     ],
     "packages-dev": [
