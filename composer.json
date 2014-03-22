@@ -34,6 +34,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/mneuhaus/Famelo.Bootstrap.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mneuhaus/XliffTranslator.git"
         }
     ],
     "require": {
@@ -55,7 +59,9 @@
         "mrimann/xlifftranslator": "*",
         "jwage/easy-csv": "*",
         "league/csv": "*",
-        "flowpack/behat": "*"
+        "flowpack/behat": "*",
+        "famelo/surf-sharedhosting": "*",
+        "typo3/surf": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",

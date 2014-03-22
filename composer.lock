@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "e151d2a3231211671c4db72b5fd8656c",
+    "hash": "7abdc9eb9fb88a7e3fa76244a67b6bca",
     "packages": [
         {
             "name": "composer/installers",
@@ -807,12 +807,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Broensfin.git",
-                "reference": "ca837ba438114da634c8650840ed52f8a061a100"
+                "reference": "7aeca8f608cb100b8645824713dd7cea262b8963"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/ca837ba438114da634c8650840ed52f8a061a100",
-                "reference": "ca837ba438114da634c8650840ed52f8a061a100",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/7aeca8f608cb100b8645824713dd7cea262b8963",
+                "reference": "7aeca8f608cb100b8645824713dd7cea262b8963",
                 "shasum": ""
             },
             "require": {
@@ -830,7 +830,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Broensfin/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Broensfin/issues"
             },
-            "time": "2014-03-19 15:42:44"
+            "time": "2014-03-22 13:29:31"
         },
         {
             "name": "famelo/common",
@@ -956,12 +956,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "f4bafdeedcfbfe157fe69b81b9ec308343a554bd"
+                "reference": "615d20a3c7dcd4eadcdb699323a28052e4f5f7f5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/f4bafdeedcfbfe157fe69b81b9ec308343a554bd",
-                "reference": "f4bafdeedcfbfe157fe69b81b9ec308343a554bd",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/615d20a3c7dcd4eadcdb699323a28052e4f5f7f5",
+                "reference": "615d20a3c7dcd4eadcdb699323a28052e4f5f7f5",
                 "shasum": ""
             },
             "require": {
@@ -975,7 +975,33 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-03-17 16:07:10"
+            "time": "2014-03-20 23:32:17"
+        },
+        {
+            "name": "famelo/surf-sharedhosting",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/Famelo.Surf.SharedHosting.git",
+                "reference": "65b90ac8452184d2a824d817458cc36144876fd5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Surf.SharedHosting/zipball/65b90ac8452184d2a824d817458cc36144876fd5",
+                "reference": "65b90ac8452184d2a824d817458cc36144876fd5",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Famelo\\Surf\\SharedHosting": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2013-11-06 12:39:19"
         },
         {
             "name": "flowpack/behat",
@@ -1012,13 +1038,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
-                "reference": "59c819b22ec19867d330cc3173c874b7a7ffac3b"
+                "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
+                "reference": "ff48eb01a10c520f1e76db8ede7fb701ee057c2d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/l3pp4rd/DoctrineExtensions/zipball/59c819b22ec19867d330cc3173c874b7a7ffac3b",
-                "reference": "59c819b22ec19867d330cc3173c874b7a7ffac3b",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/ff48eb01a10c520f1e76db8ede7fb701ee057c2d",
+                "reference": "ff48eb01a10c520f1e76db8ede7fb701ee057c2d",
                 "shasum": ""
             },
             "require": {
@@ -1085,7 +1111,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2014-03-18 09:07:39"
+            "time": "2014-03-21 22:46:06"
         },
         {
             "name": "guzzle/common",
@@ -1563,13 +1589,13 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mrimann/XliffTranslator.git",
-                "reference": "2163108d7c8537b23471c5afd2ecbb0429fccd25"
+                "url": "https://github.com/mneuhaus/XliffTranslator.git",
+                "reference": "de16461bbd258e8fb6bbab3bae8d620fb8780176"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mrimann/XliffTranslator/zipball/2163108d7c8537b23471c5afd2ecbb0429fccd25",
-                "reference": "2163108d7c8537b23471c5afd2ecbb0429fccd25",
+                "url": "https://api.github.com/repos/mneuhaus/XliffTranslator/zipball/de16461bbd258e8fb6bbab3bae8d620fb8780176",
+                "reference": "de16461bbd258e8fb6bbab3bae8d620fb8780176",
                 "shasum": ""
             },
             "require": {
@@ -1582,7 +1608,6 @@
                     "Mrimann\\XliffTranslator": "Classes"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1602,7 +1627,10 @@
                 "translation",
                 "xliff"
             ],
-            "time": "2013-10-11 12:27:15"
+            "support": {
+                "source": "https://github.com/mneuhaus/XliffTranslator/tree/master"
+            },
+            "time": "2014-03-12 14:17:41"
         },
         {
             "name": "omnipay/common",
@@ -1822,12 +1850,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/oyejorge/less.php.git",
-                "reference": "05144b5692e43173e92f7681da980d9a198c286a"
+                "reference": "286730b50c6a667dbea8d26afc10de993f39f3db"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/05144b5692e43173e92f7681da980d9a198c286a",
-                "reference": "05144b5692e43173e92f7681da980d9a198c286a",
+                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/286730b50c6a667dbea8d26afc10de993f39f3db",
+                "reference": "286730b50c6a667dbea8d26afc10de993f39f3db",
                 "shasum": ""
             },
             "require": {
@@ -1873,7 +1901,7 @@
                 "php",
                 "stylesheet"
             ],
-            "time": "2014-03-18 05:54:49"
+            "time": "2014-03-19 17:02:20"
         },
         {
             "name": "symfony/console",
@@ -1882,21 +1910,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "54059dedb1e5982cb1cae4f82ac9d1d75e471bf5"
+                "reference": "ab9359cbf100259625c756b57c578eea15b3c464"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/54059dedb1e5982cb1cae4f82ac9d1d75e471bf5",
-                "reference": "54059dedb1e5982cb1cae4f82ac9d1d75e471bf5",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/ab9359cbf100259625c756b57c578eea15b3c464",
+                "reference": "ab9359cbf100259625c756b57c578eea15b3c464",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
+                "psr/log": "~1.0",
                 "symfony/event-dispatcher": "~2.1"
             },
             "suggest": {
+                "psr/log": "For using the console logger",
                 "symfony/event-dispatcher": ""
             },
             "type": "library",
@@ -1928,7 +1958,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-03-19 06:24:10"
+            "time": "2014-03-19 15:49:37"
         },
         {
             "name": "symfony/dom-crawler",
@@ -2243,12 +2273,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/afoeder/TYPO3.Asset.git",
-                "reference": "0fcba28c28600e0d36c97d7fd24c986c8fe8f129"
+                "reference": "2dcf42169b179f53c83e1dc343199dbdb22df247"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/afoeder/TYPO3.Asset/zipball/0fcba28c28600e0d36c97d7fd24c986c8fe8f129",
-                "reference": "0fcba28c28600e0d36c97d7fd24c986c8fe8f129",
+                "url": "https://api.github.com/repos/afoeder/TYPO3.Asset/zipball/2dcf42169b179f53c83e1dc343199dbdb22df247",
+                "reference": "2dcf42169b179f53c83e1dc343199dbdb22df247",
                 "shasum": ""
             },
             "require": {
@@ -2268,7 +2298,7 @@
                 "source": "https://github.com/afoeder/TYPO3.Asset/tree/master",
                 "issues": "https://github.com/afoeder/TYPO3.Asset/issues"
             },
-            "time": "2014-03-19 14:13:19"
+            "time": "2014-03-22 13:31:11"
         },
         {
             "name": "typo3/eel",
@@ -2300,12 +2330,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/TYPO3.Expose.git",
-                "reference": "b820838a160ace625db73d01345a8854b88fa68e"
+                "reference": "f79f79e606cff9f9174f6af5a499e23615c86882"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/b820838a160ace625db73d01345a8854b88fa68e",
-                "reference": "b820838a160ace625db73d01345a8854b88fa68e",
+                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/f79f79e606cff9f9174f6af5a499e23615c86882",
+                "reference": "f79f79e606cff9f9174f6af5a499e23615c86882",
                 "shasum": ""
             },
             "require": {
@@ -2328,7 +2358,7 @@
                 "source": "https://github.com/mneuhaus/TYPO3.Expose/tree/master",
                 "issues": "https://github.com/mneuhaus/TYPO3.Expose/issues"
             },
-            "time": "2014-03-16 22:48:01"
+            "time": "2014-03-20 23:33:07"
         },
         {
             "name": "typo3/extjs",
@@ -2360,7 +2390,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "836cb1f663ac1ed67dc69cf2d933211168558739"
+                "reference": "e5529671173362345fec9ed36a64863168bbf7ce"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -2392,7 +2422,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2014-03-19 13:55:26"
+            "time": "2014-03-20 10:00:10"
         },
         {
             "name": "typo3/fluid",
@@ -2682,6 +2712,30 @@
             ],
             "description": "An extensible setup tool for TYPO3 Flow based applications",
             "time": "2014-02-13 15:11:08"
+        },
+        {
+            "name": "typo3/surf",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git://git.typo3.org/Packages/TYPO3.Surf.git",
+                "reference": "16298851a6c5521e3708bd20b63292d22ef33883"
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "TYPO3\\Surf": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0+"
+            ],
+            "description": "TYPO3 Surf is a deployment tool based on Flow and suited for a wide variety of applications",
+            "time": "2014-03-21 17:08:41"
         },
         {
             "name": "typo3/swiftmailer",
