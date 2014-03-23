@@ -9,7 +9,7 @@ $application->setDeploymentPath('/html//typo3.flow/');
 $application->setOption('keepReleases', 3);
 
 $application->setOption('defaultContext', 'Production');
-$application->setOption('composerCommandPath', '/html/composer.phar');
+$application->setOption('composerCommandPath', 'composer');
 $application->setHosting('Mittwald');
 
 $application->setOption('transferMethod', 'rsync');
@@ -21,8 +21,9 @@ $deployment->addApplication($application);
 $workflow = new SimpleWorkflow();
 $workflow->setEnableRollback(FALSE);
 
+$workflow->addTask('famelo.surf.sharedhosting:beardpatch', 'package');
 $workflow
-	->afterTask('typo3.surf:typo3:flow:copyconfiguration', array(
+	->afterTask('typo3.surf:composer:install', array(
 		'famelo.surf.sharedhosting:downloadbeard',
 		'famelo.surf.sharedhosting:beardpatch'
 	), $application);
