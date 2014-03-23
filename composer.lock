@@ -807,12 +807,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Broensfin.git",
-                "reference": "7aeca8f608cb100b8645824713dd7cea262b8963"
+                "reference": "c58c2028b43118e5ead4cb0b1859e32db294d66b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/7aeca8f608cb100b8645824713dd7cea262b8963",
-                "reference": "7aeca8f608cb100b8645824713dd7cea262b8963",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/c58c2028b43118e5ead4cb0b1859e32db294d66b",
+                "reference": "c58c2028b43118e5ead4cb0b1859e32db294d66b",
                 "shasum": ""
             },
             "require": {
@@ -830,7 +830,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Broensfin/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Broensfin/issues"
             },
-            "time": "2014-03-22 13:29:31"
+            "time": "2014-03-23 21:40:08"
         },
         {
             "name": "famelo/common",
