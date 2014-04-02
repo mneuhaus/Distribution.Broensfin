@@ -11,13 +11,12 @@
 	},
 	"TYPO3.Fluid": {
 		"[WIP][FEATURE] Refactor TranslateViewHelper to use new translate method": "28899"
-	}
+	},
 	"TYPO3.Neos": {
 		"[FEATURE] Add better output to the NodeWrappingHandler": "27765",
-		"[FEATURE] Localized node routing and consistent use of context path": "27490",
-		"[WIP][BUGFIX] Fix PluginUriAspect to comply with the Dimension change": "28070",
 		"[WIP][FEATURE] Enable LocalizedFrontendNodeRoutePartHandler": "28529",
+		"[BUGFIX] NodeWrappingHandler should not intercept login redirect": "28392",
 		"[FEATURE] Add LanguageMenuImplementation": "27657",
-		"[BUGFIX] NodeWrappingHandler should not intercept login redirect": "28392"
+		"[WIP][BUGFIX] Use one convention of data-property naming": "29075"
 	}
 }

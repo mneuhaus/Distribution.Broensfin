@@ -57,7 +57,10 @@
         "flowpack/behat": "*",
         "famelo/surf-sharedhosting": "*",
         "typo3/surf": "*",
-        "famelo/translation-helper": "*"
+        "famelo/translation-helper": "*",
+        "debug/toolbar": "*",
+        "jdorn/sql-formatter": "*",
+        "donatj/phpuseragentparser": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",

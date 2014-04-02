@@ -1,3 +1,6 @@
-Creditor,Debtor,Reference,Currency,Amount,Due Date,Creation Date
-Famelo,Gibson GbR,r23e423,EUR,2312,17.03.2014,17.03.2014
-Famelo,Randy Russel,r1243,EUR,423,17.03.2014,17.03.2014
+Debtor,Street,City,Zip,Reference,Currency,Amount,Due Date,Creation Date
+Gibson GbR,,Bielefeld,,r23e423,EUR,2312,17.03.2014,17.03.2014
+foobar,,Bielefeld,,5342,EUR,423,17.03.2014,17.03.2014
+foobar,,,,43w,EUR,5423,17.03.2014,17.03.2014
+Gibson GbR,,Bielefeld,,232423,EUR,4,17.03.2014,17.03.2014
+gibts-nicht,,,,43w,EUR,5423,17.03.2014,17.03.2014
