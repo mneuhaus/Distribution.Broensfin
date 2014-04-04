@@ -58,7 +58,6 @@
         "famelo/surf-sharedhosting": "*",
         "typo3/surf": "*",
         "famelo/translation-helper": "*",
-        "debug/toolbar": "*",
         "jdorn/sql-formatter": "*",
         "donatj/phpuseragentparser": "*"
     },
