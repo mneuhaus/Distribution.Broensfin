@@ -59,7 +59,9 @@
         "typo3/surf": "*",
         "famelo/translation-helper": "*",
         "jdorn/sql-formatter": "*",
-        "donatj/phpuseragentparser": "*"
+        "donatj/phpuseragentparser": "*",
+        "famelo/bean": "*",
+        "nikic/php-parser": "*"
     },
     "require-dev": {
         "typo3/buildessentials": "dev-master",

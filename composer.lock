@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "04bf2720992203458abc7dd74ba46777",
+    "hash": "3d97ccbf12cb27d84f1193f8ae9240e5",
     "packages": [
         {
             "name": "composer/installers",
@@ -819,6 +819,33 @@
             "time": "2014-03-12 19:39:40"
         },
         {
+            "name": "famelo/bean",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mneuhaus/Famelo.Bean.git",
+                "reference": "6a147aa275660c324a44899abed33756b6d7e187"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Bean/zipball/6a147aa275660c324a44899abed33756b6d7e187",
+                "reference": "6a147aa275660c324a44899abed33756b6d7e187",
+                "shasum": ""
+            },
+            "require": {
+                "typo3/flow": "*"
+            },
+            "type": "typo3-flow-package",
+            "autoload": {
+                "psr-0": {
+                    "Famelo\\Bean": "Classes"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Code generation package for TYPO3.Flow",
+            "time": "2014-04-06 20:25:21"
+        },
+        {
             "name": "famelo/bootstrap",
             "version": "dev-master",
             "source": {
@@ -854,12 +881,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Broensfin.git",
-                "reference": "ada22fc1c597c05164b06fc836cd0ffee7b5842d"
+                "reference": "a60d74f48b2065a157c61c53c598b04163b564de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/ada22fc1c597c05164b06fc836cd0ffee7b5842d",
-                "reference": "ada22fc1c597c05164b06fc836cd0ffee7b5842d",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/a60d74f48b2065a157c61c53c598b04163b564de",
+                "reference": "a60d74f48b2065a157c61c53c598b04163b564de",
                 "shasum": ""
             },
             "require": {
@@ -877,7 +904,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Broensfin/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Broensfin/issues"
             },
-            "time": "2014-04-02 14:03:10"
+            "time": "2014-04-07 09:02:35"
         },
         {
             "name": "famelo/common",
@@ -885,12 +912,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Common.git",
-                "reference": "6843d282da1d0ad5c127cf4671086e5de549308f"
+                "reference": "665a98132b05765c87396ff96ff1aa71d92050fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/6843d282da1d0ad5c127cf4671086e5de549308f",
-                "reference": "6843d282da1d0ad5c127cf4671086e5de549308f",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Common/zipball/665a98132b05765c87396ff96ff1aa71d92050fd",
+                "reference": "665a98132b05765c87396ff96ff1aa71d92050fd",
                 "shasum": ""
             },
             "require": {
@@ -904,7 +931,7 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2014-03-06 21:18:41"
+            "time": "2014-04-06 18:04:42"
         },
         {
             "name": "famelo/doctrineextensions",
@@ -940,12 +967,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Messaging.git",
-                "reference": "6fde1325a0e125cb0eac8c042b32c7105c9e34eb"
+                "reference": "bf9bf02511cb745780e71754a4201668e566a23f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/6fde1325a0e125cb0eac8c042b32c7105c9e34eb",
-                "reference": "6fde1325a0e125cb0eac8c042b32c7105c9e34eb",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Messaging/zipball/bf9bf02511cb745780e71754a4201668e566a23f",
+                "reference": "bf9bf02511cb745780e71754a4201668e566a23f",
                 "shasum": ""
             },
             "require": {
@@ -963,13 +990,13 @@
                 {
                     "name": "Marc Neuhaus",
                     "email": "apocalip@gmail.com",
-                    "homepage": "http://famelo.de",
+                    "homepage": "http://famelo.de/",
                     "role": "Developer"
                 }
             ],
             "description": "Little helper to send Messages with SwiftMailer rendered through Fluid.",
             "homepage": "https://github.com/mneuhaus/Famelo.Messaging",
-            "time": "2014-03-16 22:14:20"
+            "time": "2014-04-07 08:43:28"
         },
         {
             "name": "famelo/pdf",
@@ -1003,12 +1030,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "f68f3b9aa0f1327a39fdef23f2c4343cbd53b9bf"
+                "reference": "048d56e7422288db3caf8d33e7c64ec25fa29b3b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/f68f3b9aa0f1327a39fdef23f2c4343cbd53b9bf",
-                "reference": "f68f3b9aa0f1327a39fdef23f2c4343cbd53b9bf",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/048d56e7422288db3caf8d33e7c64ec25fa29b3b",
+                "reference": "048d56e7422288db3caf8d33e7c64ec25fa29b3b",
                 "shasum": ""
             },
             "require": {
@@ -1022,7 +1049,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-04-02 14:02:43"
+            "time": "2014-04-07 00:12:48"
         },
         {
             "name": "famelo/surf-sharedhosting",
@@ -1560,12 +1587,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kriswallsmith/assetic.git",
-                "reference": "679cbbad76d889edfc8ff1e3f1e1025ddd7f634b"
+                "reference": "f19cb3434ff4212309861ebdb03c581567af7ca8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/679cbbad76d889edfc8ff1e3f1e1025ddd7f634b",
-                "reference": "679cbbad76d889edfc8ff1e3f1e1025ddd7f634b",
+                "url": "https://api.github.com/repos/kriswallsmith/assetic/zipball/f19cb3434ff4212309861ebdb03c581567af7ca8",
+                "reference": "f19cb3434ff4212309861ebdb03c581567af7ca8",
                 "shasum": ""
             },
             "require": {
@@ -1625,7 +1652,7 @@
                 "compression",
                 "minification"
             ],
-            "time": "2014-04-03 15:47:19"
+            "time": "2014-04-05 12:21:29"
         },
         {
             "name": "leafo/scssphp",
@@ -1725,6 +1752,51 @@
                 "write"
             ],
             "time": "2014-04-02 11:14:44"
+        },
+        {
+            "name": "nikic/php-parser",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "c341ab2ecfa117b265c452666f11471e152c9416"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/c341ab2ecfa117b265c452666f11471e152c9416",
+                "reference": "c341ab2ecfa117b265c452666f11471e152c9416",
+                "shasum": ""
+            },
+            "require": {
+                "ext-tokenizer": "*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov"
+                }
+            ],
+            "description": "A PHP parser written in PHP",
+            "keywords": [
+                "parser",
+                "php"
+            ],
+            "time": "2014-04-02 07:44:45"
         },
         {
             "name": "omnipay/common",
@@ -1886,12 +1958,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/omnipay/paypal.git",
-                "reference": "9ccfedb65d19d60d572dc83cc0834117f1c9c94d"
+                "reference": "a08b9f06ee014e31102008a71d85a4272dace724"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/omnipay/paypal/zipball/9ccfedb65d19d60d572dc83cc0834117f1c9c94d",
-                "reference": "9ccfedb65d19d60d572dc83cc0834117f1c9c94d",
+                "url": "https://api.github.com/repos/omnipay/paypal/zipball/a08b9f06ee014e31102008a71d85a4272dace724",
+                "reference": "a08b9f06ee014e31102008a71d85a4272dace724",
                 "shasum": ""
             },
             "require": {
@@ -1907,7 +1979,7 @@
                 }
             },
             "autoload": {
-                "psr-0": {
+                "psr-4": {
                     "Omnipay\\PayPal\\": "src/"
                 }
             },
@@ -1936,7 +2008,7 @@
                 "paypal",
                 "purchase"
             ],
-            "time": "2014-04-02 07:41:45"
+            "time": "2014-04-05 16:45:15"
         },
         {
             "name": "oyejorge/less.php",
@@ -2403,7 +2475,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Eel.git",
-                "reference": "feb5d4df0308c5b171befdb61e088f1c5eb31460"
+                "reference": "6d3e2393100007684afa277434b2f224c548044f"
             },
             "require": {
                 "typo3/flow": "*"
@@ -2419,7 +2491,7 @@
                 "LGPL-3.0+"
             ],
             "description": "The Embedded Expression Language (Eel) is a building block for creating Domain Specific Languages",
-            "time": "2014-02-27 13:55:48"
+            "time": "2014-04-06 11:55:32"
         },
         {
             "name": "typo3/expose",
@@ -2427,12 +2499,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/TYPO3.Expose.git",
-                "reference": "169945a1dad58c7d9c45b59bcfdc12c165a6342d"
+                "reference": "76a4569041214e80a297c9598f464cd63a1bf46c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/169945a1dad58c7d9c45b59bcfdc12c165a6342d",
-                "reference": "169945a1dad58c7d9c45b59bcfdc12c165a6342d",
+                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/76a4569041214e80a297c9598f464cd63a1bf46c",
+                "reference": "76a4569041214e80a297c9598f464cd63a1bf46c",
                 "shasum": ""
             },
             "require": {
@@ -2454,7 +2526,7 @@
                 "source": "https://github.com/mneuhaus/TYPO3.Expose/tree/master",
                 "issues": "https://github.com/mneuhaus/TYPO3.Expose/issues"
             },
-            "time": "2014-04-01 10:42:41"
+            "time": "2014-04-07 08:43:54"
         },
         {
             "name": "typo3/flow",
@@ -2462,7 +2534,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Flow.git",
-                "reference": "ca4ab33b31a705d0c6173e15ced0249222ef05ca"
+                "reference": "41fc287c9f8ea7670675bfdea0b4a44225e97809"
             },
             "require": {
                 "composer/installers": "~1.0.2",
@@ -2494,7 +2566,7 @@
             ],
             "description": "TYPO3 Flow Application Framework",
             "homepage": "http://flow.typo3.org",
-            "time": "2014-04-02 14:27:27"
+            "time": "2014-04-06 11:05:11"
         },
         {
             "name": "typo3/fluid",
@@ -2502,7 +2574,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Fluid.git",
-                "reference": "ec8825cac5588cdef1a58e101c81ee8288f9288c"
+                "reference": "7eec85bd0071c0e76114409e7e46f2b8c72ed829"
             },
             "require": {
                 "typo3/flow": "*"
@@ -2518,7 +2590,7 @@
                 "LGPL-3.0+"
             ],
             "description": "Next-Generation Templating Framework for TYPO3 Flow and TYPO3 Neos, also backported to TYPO3 CMS",
-            "time": "2014-03-14 14:26:55"
+            "time": "2014-04-06 19:30:33"
         },
         {
             "name": "typo3/form",
@@ -2598,7 +2670,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Media.git",
-                "reference": "d440b3261fdb1fed2eec869afd1bcd4294ca9a34"
+                "reference": "d1b1a90d962af91892fa3da37a451f8bced95c8d"
             },
             "require": {
                 "typo3/flow": "*",
@@ -2615,7 +2687,7 @@
                 "GPL-3.0+"
             ],
             "description": "The Media package",
-            "time": "2014-03-26 10:20:14"
+            "time": "2014-04-06 11:29:09"
         },
         {
             "name": "typo3/neos",
@@ -2623,7 +2695,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.Neos.git",
-                "reference": "8010ad1b3bea6423bdfa9ed4ad556f912428dcb2"
+                "reference": "77857a6ddbfc34721a176d852068fb141e15f0a6"
             },
             "require": {
                 "typo3/flow": "*",
@@ -2652,7 +2724,7 @@
                 "GPL-3.0+"
             ],
             "description": "The next generation of the popular open-source CMS.",
-            "time": "2014-04-03 09:54:48"
+            "time": "2014-04-06 11:54:03"
         },
         {
             "name": "typo3/neos-expose",
@@ -2866,7 +2938,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.TYPO3CR.git",
-                "reference": "8e2403afa36949148c9f02ff5cdf4cc5947f80bb"
+                "reference": "647f8ebc1baf53b156b144676f3bf49711915706"
             },
             "require": {
                 "typo3/flow": "*"
@@ -2881,7 +2953,7 @@
             "license": [
                 "GPL-3.0+"
             ],
-            "time": "2014-04-01 10:02:38"
+            "time": "2014-04-06 19:27:33"
         },
         {
             "name": "typo3/typoscript",
@@ -2889,7 +2961,7 @@
             "source": {
                 "type": "git",
                 "url": "git://git.typo3.org/Packages/TYPO3.TypoScript.git",
-                "reference": "2e859b1c0b44dd6f34b648aeec2780e5988543eb"
+                "reference": "7f96c8c3aeb4a04f60f12aee8ab7a7ef77f36ae6"
             },
             "require": {
                 "typo3/eel": "*",
@@ -2906,7 +2978,7 @@
                 "GPL-3.0+"
             ],
             "description": "TypoScript is a hierarchical, prototype based processing language",
-            "time": "2014-04-03 07:58:31"
+            "time": "2014-04-06 12:00:14"
         }
     ],
     "packages-dev": [

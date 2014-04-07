@@ -5,7 +5,7 @@ use \TYPO3\Surf\Domain\Model\SimpleWorkflow;
 
 $application = new \Famelo\Surf\SharedHosting\Application\Flow();
 $application->setOption('repositoryUrl', 'https://mneuhaus@github.com/mneuhaus/Distribution.Broensfin.git');
-$application->setDeploymentPath('/html//typo3.flow/');
+$application->setDeploymentPath('/html/typo3.flow/');
 $application->setOption('keepReleases', 3);
 
 $application->setOption('defaultContext', 'Production');
