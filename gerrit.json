@@ -16,7 +16,6 @@
 		"[FEATURE] Add better output to the NodeWrappingHandler": "27765",
 		"[WIP][FEATURE] Enable LocalizedFrontendNodeRoutePartHandler": "28529",
 		"[BUGFIX] NodeWrappingHandler should not intercept login redirect": "28392",
-		"[FEATURE] Add LanguageMenuImplementation": "27657",
-		"[WIP][BUGFIX] Use one convention of data-property naming": "29075"
+		"[FEATURE] Add LanguageMenuImplementation": "27657"
 	}
 }
