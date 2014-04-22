@@ -1030,12 +1030,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "efeb0bcb8119bb939a43e0f6f1a37ff653262e29"
+                "reference": "4b2ddf5c9a2f26092337b8745ab297db8b6acf15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/efeb0bcb8119bb939a43e0f6f1a37ff653262e29",
-                "reference": "efeb0bcb8119bb939a43e0f6f1a37ff653262e29",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/4b2ddf5c9a2f26092337b8745ab297db8b6acf15",
+                "reference": "4b2ddf5c9a2f26092337b8745ab297db8b6acf15",
                 "shasum": ""
             },
             "require": {
@@ -1049,7 +1049,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-04-22 14:58:48"
+            "time": "2014-04-22 15:22:55"
         },
         {
             "name": "famelo/surf-sharedhosting",
