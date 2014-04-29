@@ -851,12 +851,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Bootstrap.git",
-                "reference": "cb1d443c17f0d3ab45629c89890fc90b79c49170"
+                "reference": "682944ec671ed7537f83ced0b9bb25245285b277"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Bootstrap/zipball/cb1d443c17f0d3ab45629c89890fc90b79c49170",
-                "reference": "cb1d443c17f0d3ab45629c89890fc90b79c49170",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Bootstrap/zipball/682944ec671ed7537f83ced0b9bb25245285b277",
+                "reference": "682944ec671ed7537f83ced0b9bb25245285b277",
                 "shasum": ""
             },
             "require": {
@@ -873,7 +873,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Bootstrap/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Bootstrap/issues"
             },
-            "time": "2014-03-13 22:05:34"
+            "time": "2014-04-29 11:24:07"
         },
         {
             "name": "famelo/broensfin",
@@ -881,12 +881,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Broensfin.git",
-                "reference": "4a1d8f027c7717bf0d67c877649122258dd67070"
+                "reference": "a935b7683d3af0e44cea348d23ce0309d9a9aa5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/4a1d8f027c7717bf0d67c877649122258dd67070",
-                "reference": "4a1d8f027c7717bf0d67c877649122258dd67070",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/a935b7683d3af0e44cea348d23ce0309d9a9aa5c",
+                "reference": "a935b7683d3af0e44cea348d23ce0309d9a9aa5c",
                 "shasum": ""
             },
             "require": {
@@ -904,7 +904,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Broensfin/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Broensfin/issues"
             },
-            "time": "2014-04-22 14:49:15"
+            "time": "2014-04-29 13:49:44"
         },
         {
             "name": "famelo/common",
@@ -1030,12 +1030,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "4b2ddf5c9a2f26092337b8745ab297db8b6acf15"
+                "reference": "5b8c1fd1f923d2837801637053a777a76d1bedcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/4b2ddf5c9a2f26092337b8745ab297db8b6acf15",
-                "reference": "4b2ddf5c9a2f26092337b8745ab297db8b6acf15",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/5b8c1fd1f923d2837801637053a777a76d1bedcc",
+                "reference": "5b8c1fd1f923d2837801637053a777a76d1bedcc",
                 "shasum": ""
             },
             "require": {
@@ -1049,7 +1049,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-04-22 15:22:55"
+            "time": "2014-04-29 13:49:57"
         },
         {
             "name": "famelo/surf-sharedhosting",
