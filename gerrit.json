@@ -19,7 +19,6 @@
 		"[FEATURE] Add LanguageMenuImplementation": "27657"
 	},
 	"TYPO3.TYPO3CR": {
-		"[BUGFIX] Make the Behavior test more compatible to custom Setups": "29702",
 		"[BUGFIX] Fix findNodeDataInTargetWorkspace to work with shine-through nodes": "29703"
 	},
 	"TYPO3.TypoScript": {
