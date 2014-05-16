@@ -881,12 +881,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Broensfin.git",
-                "reference": "2cfa1ada2549cbf3a26fb5f2f5379f6322be0d02"
+                "reference": "c1e0bc94ca20dcd2ef17342048243cce99264650"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/2cfa1ada2549cbf3a26fb5f2f5379f6322be0d02",
-                "reference": "2cfa1ada2549cbf3a26fb5f2f5379f6322be0d02",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Broensfin/zipball/c1e0bc94ca20dcd2ef17342048243cce99264650",
+                "reference": "c1e0bc94ca20dcd2ef17342048243cce99264650",
                 "shasum": ""
             },
             "require": {
@@ -904,7 +904,7 @@
                 "source": "https://github.com/mneuhaus/Famelo.Broensfin/tree/master",
                 "issues": "https://github.com/mneuhaus/Famelo.Broensfin/issues"
             },
-            "time": "2014-05-09 17:40:08"
+            "time": "2014-05-15 12:19:29"
         },
         {
             "name": "famelo/common",
@@ -1030,12 +1030,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/Famelo.Saas.git",
-                "reference": "56e57b6dd2da6a901956ad515fe6d2f1019d2109"
+                "reference": "2c446384f00a6e914beb9429e63fb0a9dd6b1bd7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/56e57b6dd2da6a901956ad515fe6d2f1019d2109",
-                "reference": "56e57b6dd2da6a901956ad515fe6d2f1019d2109",
+                "url": "https://api.github.com/repos/mneuhaus/Famelo.Saas/zipball/2c446384f00a6e914beb9429e63fb0a9dd6b1bd7",
+                "reference": "2c446384f00a6e914beb9429e63fb0a9dd6b1bd7",
                 "shasum": ""
             },
             "require": {
@@ -1049,7 +1049,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Add description here",
-            "time": "2014-05-08 21:55:46"
+            "time": "2014-05-16 23:34:20"
         },
         {
             "name": "famelo/surf-sharedhosting",
@@ -2499,12 +2499,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mneuhaus/TYPO3.Expose.git",
-                "reference": "0274df66ebb938c79f1d62275fe62f9428a26ac8"
+                "reference": "b41eefa392f335f82fb8b8b3cf1d710a2ca63c55"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/0274df66ebb938c79f1d62275fe62f9428a26ac8",
-                "reference": "0274df66ebb938c79f1d62275fe62f9428a26ac8",
+                "url": "https://api.github.com/repos/mneuhaus/TYPO3.Expose/zipball/b41eefa392f335f82fb8b8b3cf1d710a2ca63c55",
+                "reference": "b41eefa392f335f82fb8b8b3cf1d710a2ca63c55",
                 "shasum": ""
             },
             "require": {
@@ -2526,7 +2526,7 @@
                 "source": "https://github.com/mneuhaus/TYPO3.Expose/tree/master",
                 "issues": "https://github.com/mneuhaus/TYPO3.Expose/issues"
             },
-            "time": "2014-05-08 22:00:16"
+            "time": "2014-05-16 23:34:50"
         },
         {
             "name": "typo3/flow",

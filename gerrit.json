@@ -10,19 +10,19 @@
 		"[WIP][FEATURE] Improve Translator API": "28897"
 	},
 	"TYPO3.Fluid": {
-		"[WIP][FEATURE] Refactor TranslateViewHelper to use new translate method": "28899"
+		"[WIP][FEATURE] Refactor TranslateViewHelper to use new translate method": "28899",
+		"[BUGFIX] Prevent wrong IdentityProperties without formName": "30181"
 	},
 	"TYPO3.Neos": {
 		"[FEATURE] Add better output to the NodeWrappingHandler": "27765",
 		"[WIP][FEATURE] Enable LocalizedFrontendNodeRoutePartHandler": "28529",
-		"[BUGFIX] NodeWrappingHandler should not intercept login redirect": "28392",
 		"[FEATURE] Add LanguageMenuImplementation": "27657"
 	},
 	"TYPO3.TYPO3CR": {
 		"[BUGFIX] Fix findNodeDataInTargetWorkspace to work with shine-through nodes": "29703"
 	},
 	"TYPO3.TypoScript": {
-		"[BUGFIX] HtmlMessageHandler and PlainTextHandler should not intercept login redirect": "29724",
+		"[BUGFIX] TypoScriptRuntime should not intercept Login redirect": "29724",
 		"[FEATURE] Add better output to the HtmlMessageHandler": "29725"
 	}
 }
